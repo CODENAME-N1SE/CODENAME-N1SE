@@ -1,5 +1,5 @@
-<svg width="900" height="160"
-     viewBox="0 0 900 160"
+<svg width="900" height="115"
+     viewBox="0 0 900 115"
      xmlns="http://www.w3.org/2000/svg">
 
   <defs>
@@ -11,15 +11,15 @@
       <stop offset="0%" stop-color="#00ffff">
         <animate
           attributeName="stop-color"
-          values="#00ffff;#8a2be2;#ff00ff;#00ffff"
+          values="#00ffff;#7a00ff;#ff00ff;#00ffff"
           dur="4s"
           repeatCount="indefinite"/>
       </stop>
 
-      <stop offset="50%" stop-color="#8a2be2">
+      <stop offset="50%" stop-color="#7a00ff">
         <animate
           attributeName="stop-color"
-          values="#8a2be2;#ff00ff;#00ffff;#8a2be2"
+          values="#7a00ff;#ff00ff;#00ffff;#7a00ff"
           dur="4s"
           repeatCount="indefinite"/>
       </stop>
@@ -27,7 +27,7 @@
       <stop offset="100%" stop-color="#ff00ff">
         <animate
           attributeName="stop-color"
-          values="#ff00ff;#00ffff;#8a2be2;#ff00ff"
+          values="#ff00ff;#00ffff;#7a00ff;#ff00ff"
           dur="4s"
           repeatCount="indefinite"/>
       </stop>
@@ -35,13 +35,19 @@
     </linearGradient>
 
 
-    <filter id="projectGlow">
+    <filter id="projectGlow"
+            x="-20%"
+            y="-50%"
+            width="140%"
+            height="200%">
+
       <feGaussianBlur stdDeviation="3" result="blur"/>
 
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
+
     </filter>
 
   </defs>
@@ -49,7 +55,7 @@
 
   <text
     x="450"
-    y="65"
+    y="47"
     text-anchor="middle"
     font-family="monospace"
     font-size="28"
@@ -65,32 +71,15 @@
 
   <text
     x="450"
-    y="100"
+    y="82"
     text-anchor="middle"
     font-family="monospace"
     font-size="12"
-    letter-spacing="5"
+    letter-spacing="6"
     fill="#8b949e">
 
     N1SE // PROJECT ARCHIVE
 
   </text>
-
-
-  <line
-    x1="100"
-    y1="125"
-    x2="800"
-    y2="125"
-    stroke="url(#projectGradient)"
-    stroke-width="2">
-
-    <animate
-      attributeName="stroke-dasharray"
-      values="0,700;700,0"
-      dur="2s"
-      fill="freeze"/>
-
-  </line>
 
 </svg>
