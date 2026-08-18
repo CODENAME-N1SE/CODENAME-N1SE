@@ -41,7 +41,7 @@ algorithms, systems, databases and real-world projects.
 
 <div align="center">
 
-### `⚡ CURRENTLY_BUILDING`
+<img src="./assets/live-status.svg" width="100%" />
 
 <!-- CURRENTLY_BUILDING:START -->
 
@@ -210,14 +210,6 @@ SYSTEM STATE      :: BUILDING
 
 <br><br>
 
-```text
-> connection established
-> packets encrypted
-> curiosity detected
-
-[ N1SE SYSTEM ONLINE ]
-```
-
-### `LEARN // CREATE // CONQUER`
+<img src="./assets/system-footer.svg" width="100%" />
 
 </div>
