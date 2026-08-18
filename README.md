@@ -8,7 +8,7 @@
 
 <h2 align="center">⚡ IDENTITY://WHO_AM_I ⚡</h2>
 
-```yaml id="eb5jei"
+```yaml id="w76b1s"
 USER:
   name: "Nirmal Semalti"
   codename: "N1SE"
@@ -39,7 +39,7 @@ CURRENT_PROTOCOL:
 
 <br>
 
-```text id="a7on68"
+```text id="gmj1fn"
 ┌──[ N1SE@github ]─[ ~/tech_arsenal ]
 │
 ├── LANGUAGES
@@ -61,10 +61,13 @@ CURRENT_PROTOCOL:
 └── TOOLS
     ├── Git
     └── GitHub
-
-
-STATUS :: [████████████████████] ARSENAL LOADED
 ```
+
+<div align="center">
+
+<img src="./assets/arsenal-loaded.svg" width="100%" />
+
+</div>
 
 <br>
 
@@ -78,7 +81,7 @@ STATUS :: [████████████████████] ARSENAL
 
 ### `[01]` ⚙️ HYBRID CPU SCHEDULER
 
-```text id="q2sx5j"
+```text id="oj4ot5"
 CLASS       :: SYSTEMS / ALGORITHMS
 LANGUAGE    :: C
 STATUS      :: PUBLISHED
@@ -94,7 +97,7 @@ process scheduling and operating-system concepts.
 
 ### `[02]` ❤️ HEART DISEASE RISK PREDICTION
 
-```text id="dr2g8s"
+```text id="4k1ir5"
 CLASS       :: MACHINE LEARNING
 LANGUAGE    :: PYTHON
 STATUS      :: PUBLISHED
@@ -110,7 +113,7 @@ risk prediction using patient data.
 
 ### `[03]` 🎬 MOVIE MANAGEMENT SYSTEM
 
-```text id="53sdkr"
+```text id="t3fcdo"
 CLASS       :: MANAGEMENT SYSTEM
 LANGUAGE    :: C
 STATUS      :: PUBLISHED
@@ -126,7 +129,7 @@ structured programming and file operations.
 
 ### `[04]` 🏦 BANK MANAGEMENT SYSTEM
 
-```text id="zqssmn"
+```text id="gr8azn"
 CLASS       :: MAJOR PROJECT
 LANGUAGE    :: PYTHON
 DATABASE    :: SQL
@@ -151,7 +154,7 @@ TARGET MODULES ::
 
 <div align="center">
 
-```text id="i7q0h4"
+```text id="y2dl60"
 ╔══════════════════════════════════════╗
 ║       N1SE://PROJECT_DATABASE       ║
 ╠══════════════════════════════════════╣
