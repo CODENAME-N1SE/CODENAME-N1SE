@@ -43,9 +43,19 @@ algorithms, systems, databases and real-world projects.
 
 <!-- CURRENTLY_BUILDING:START -->
 
-`NO ACTIVE PROJECT DETECTED`
+### ⚡ BANK MANAGEMNET
 
-Add the `currently-building` topic to the repository you are actively developing.
+`Multiple / Not detected` • `ACTIVE DEVELOPMENT`
+
+Python-based banking management system using OOP and SQL for account and transaction management.
+
+```text
+STATUS       :: BUILDING
+LAST SIGNAL  :: 18 AUG 2026
+SOURCE       :: GITHUB
+```
+
+[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-00ffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/Bank-Managemnet)
 
 <!-- CURRENTLY_BUILDING:END -->
 
