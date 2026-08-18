@@ -23,3 +23,9 @@ CURRENT_PROTOCOL:
   - Strengthen Data Structures & Algorithms
   - Explore software engineering
   - Turn ideas into working systems
+
+Languages        :: Python | C | Java
+Core CS          :: DSA | Object-Oriented Programming
+Database         :: SQL
+Web              :: HTML | CSS
+Developer Tools  :: Git | GitHub
