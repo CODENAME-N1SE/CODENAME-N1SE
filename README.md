@@ -25,7 +25,7 @@ algorithms, systems, databases and real-world projects.
 
 <br>
 
-```text
+```text id="d48rgc"
 ┌──[ N1SE@github ]─[ ~/identity ]
 │
 ├── USER       :: Nirmal Semalti
@@ -37,8 +37,6 @@ algorithms, systems, databases and real-world projects.
 └── MOTTO      :: Learn. Create. Conquer.
 ```
 
-<br>
-
 <div align="center">
 
 <img src="./assets/live-status.svg" width="100%" />
@@ -47,7 +45,7 @@ algorithms, systems, databases and real-world projects.
 
 `NO ACTIVE PROJECT DETECTED`
 
-Add the `currently-building` topic to the repository you are actively developing.
+Add the `currently-building` topic to the repository you're actively developing.
 
 <!-- CURRENTLY_BUILDING:END -->
 
@@ -59,23 +57,19 @@ Add the `currently-building` topic to the repository you are actively developing
 
 <summary><b>⚡ 01 // TECH_ARSENAL.exe</b></summary>
 
-<br>
-
 <div align="center">
 
 <img src="./assets/arsenal.svg" width="100%" />
 
 <code>> LOADING CORE MODULES...</code>
 
-<br><br>
+<br>
 
 <img src="https://skillicons.dev/icons?i=python,c,java,html,css,mysql,git,github&theme=dark" />
 
 </div>
 
-<br>
-
-```text
+```text id="i5mnhd"
 ┌──[ N1SE@github ]─[ ~/tech_arsenal ]
 │
 ├── LANGUAGES
@@ -109,8 +103,6 @@ Add the `currently-building` topic to the repository you are actively developing
 
 <summary><b>🗃️ 02 // LATEST_PROJECTS</b></summary>
 
-<br>
-
 <div align="center">
 
 <img src="./assets/projects.svg" width="100%" />
@@ -123,73 +115,7 @@ Add the `currently-building` topic to the repository you are actively developing
 
 <!-- LATEST_PROJECTS:START -->
 
-### `[01]` ⚡ FILE HANDLING PROJECT USING PYTHON
-
-```text
-LANGUAGE     :: Python
-STATUS       :: PUBLISHED
-LAST UPDATE  :: 04 JUL 2026
-
-DESCRIPTION ::
-No description provided yet.
-```
-
-[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-00ffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/File-Handling-Project-Using-Python)
-
-<br>
-
-### `[02]` ⚡ HYBRID CPU SCHEDULER
-
-```text
-LANGUAGE     :: C
-STATUS       :: PUBLISHED
-LAST UPDATE  :: 28 MAY 2026
-
-DESCRIPTION ::
-Hybrid CPU Scheduling Algorithm in C featuring Real-Time, Interactive, and Batch process handling with preemption, aging, waiting time, and turnaround time calculation.
-```
-
-[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-8a2be2?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/Hybrid-CPU-Scheduler)
-
-<br>
-
-### `[03]` ⚡ MOVIE MANAGEMENT SYSTEM
-
-```text
-LANGUAGE     :: C
-STATUS       :: PUBLISHED
-LAST UPDATE  :: 28 MAY 2026
-
-DESCRIPTION ::
-A simple Movie Ticket Booking System developed in C using Data Structures concepts. The project uses a 2D array to manage seat allocation, booking, cancellation, and availability checking. File handling is implemented to store booking data permanently.
-```
-
-[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-ff00ff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/Movie-Management-System)
-
-<br>
-
-### `[04]` ⚡ HEART DISEASE RISK PREDICTION MODEL
-
-```text
-LANGUAGE     :: Python
-STATUS       :: PUBLISHED
-LAST UPDATE  :: 28 MAY 2026
-
-DESCRIPTION ::
-A beginner-friendly Machine Learning project that predicts the risk of heart disease using patient health parameters such as age, cholesterol, blood pressure, and heart rate. Built using Python, Pandas, Matplotlib, and Scikit-learn with Random Forest Classification and data visualization techniques.
-```
-
-[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-00ffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/Heart-Disease-Risk-Prediction-Model)
-
-<br>
-
-```text
-N1SE://PROJECT_DATABASE
-
-04 LATEST PROJECTS LOADED
-
-> DATABASE QUERY COMPLETE_
-```
+`PROJECT DATABASE INITIALIZING...`
 
 <!-- LATEST_PROJECTS:END -->
 
@@ -203,7 +129,7 @@ N1SE://PROJECT_DATABASE
 
 <br>
 
-```yaml
+```yaml id="zxavdg"
 DEVELOPMENT:
   - Strengthen Data Structures & Algorithms
   - Build larger real-world applications
@@ -234,7 +160,7 @@ LONG_TERM:
 
 <br>
 
-```text
+```text id="bhcjue"
 N1SE://DEVELOPER_SIGNAL
 
 PROFILE STATUS    :: ONLINE
