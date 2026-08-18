@@ -4,36 +4,86 @@
 
 <img src="./assets/typing.svg" width="100%" />
 
+<br>
+
+### `PROGRAMMER // PROBLEM SOLVER // BUILDER`
+
+<p>
+Building my foundations in software engineering through<br>
+algorithms, systems, databases and real-world projects.
+</p>
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=python,c,java,html,css,mysql,git,github&theme=dark" />
+
+<br><br>
+
+<a href="https://github.com/CODENAME-N1SE">
+<img src="https://img.shields.io/badge/GITHUB-CODENAME--N1SE-00ffff?style=for-the-badge&logo=github&logoColor=black">
+</a>
+
+<a href="https://www.linkedin.com/in/nirmalsemalti/">
+<img src="https://img.shields.io/badge/LINKEDIN-CONNECT-8a2be2?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
+
 </div>
 
-<h2 align="center">⚡ IDENTITY://WHO_AM_I ⚡</h2>
+<br>
 
-```yaml
-USER:
-  name: "Nirmal Semalti"
-  codename: "N1SE"
-
-PROFILE:
-  role: "Programmer & Problem Solver"
-  status: "Building. Learning. Evolving."
-  motto: "Learn. Create. Conquer."
-
-CURRENT_PROTOCOL:
-  - Build real-world projects
-  - Strengthen Data Structures & Algorithms
-  - Explore software engineering
-  - Turn ideas into working systems
+```text
+┌──[ N1SE@github ]─[ ~/identity ]
+│
+├── USER       :: Nirmal Semalti
+├── CODENAME   :: N1SE
+├── FOCUS      :: Software Engineering
+├── DSA        :: Intermediate
+├── STATUS     :: Building. Learning. Evolving.
+│
+└── MOTTO      :: Learn. Create. Conquer.
 ```
+
+<br>
+
+<div align="center">
+
+## `⚡ CURRENTLY_BUILDING`
+
+### 🏦 BANK MANAGEMENT SYSTEM
+
+`Python` • `SQL` • `OOP`
+
+<img src="https://img.shields.io/badge/STATUS-UNDER_DEVELOPMENT-ff00ff?style=for-the-badge">
+
+<br><br>
+
+A structured banking management system designed to apply
+Python, object-oriented programming and database concepts
+to a larger real-world project.
+
+</div>
+
+<br>
+
+<details>
+
+<summary><b>⚡ 01 // TECH_ARSENAL.exe</b></summary>
+
+<br>
 
 <div align="center">
 
 <img src="./assets/arsenal.svg" width="100%" />
 
-### `> LOADING CORE MODULES...`
+<code>> LOADING CORE MODULES...</code>
+
+<br><br>
 
 <img src="https://skillicons.dev/icons?i=python,c,java,html,css,mysql,git,github&theme=dark" />
 
 </div>
+
+<br>
 
 ```text
 ┌──[ N1SE@github ]─[ ~/tech_arsenal ]
@@ -60,6 +110,16 @@ CURRENT_PROTOCOL:
 ```
 
 <img src="./assets/arsenal-loaded.svg" width="600" />
+
+</details>
+
+<br>
+
+<details>
+
+<summary><b>🗃️ 02 // PROJECT_DATABASE</b></summary>
+
+<br>
 
 <div align="center">
 
@@ -140,11 +200,9 @@ TARGET MODULES ::
 └── SQL Database Integration
 ```
 
-![Building](https://img.shields.io/badge/STATUS-UNDER_DEVELOPMENT-ff00ff?style=for-the-badge)
+<img src="https://img.shields.io/badge/STATUS-UNDER_DEVELOPMENT-ff00ff?style=for-the-badge">
 
-<br>
-
-<div align="center">
+<br><br>
 
 ```text
 ╔══════════════════════════════════════╗
@@ -158,5 +216,97 @@ TARGET MODULES ::
 ║                                      ║
 ╚══════════════════════════════════════╝
 ```
+
+</details>
+
+<br>
+
+<details>
+
+<summary><b>🎯 03 // CURRENT_MISSION</b></summary>
+
+<br>
+
+```yaml
+PRIMARY_OBJECTIVE:
+  project: "Bank Management System"
+  stack:
+    - Python
+    - SQL
+    - Object-Oriented Programming
+
+DEVELOPMENT:
+  - Strengthen Data Structures & Algorithms
+  - Build larger real-world applications
+  - Improve software architecture
+  - Write cleaner and maintainable code
+  - Strengthen problem-solving ability
+
+NEXT_TARGETS:
+  - JavaScript
+  - PostgreSQL
+  - REST APIs
+  - FastAPI
+  - Docker
+
+LONG_TERM:
+  - Backend Development
+  - Software Engineering
+  - Full-stack fundamentals
+```
+
+</details>
+
+<br>
+
+<details>
+
+<summary><b>📡 04 // GITHUB_TELEMETRY</b></summary>
+
+<br>
+
+<div align="center">
+
+### `> READING DEVELOPER SIGNAL...`
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=CODENAME-N1SE&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00ffff&icon_color=ff00ff&text_color=c9d1d9" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CODENAME-N1SE&layout=compact&hide_border=true&bg_color=0d1117&title_color=8a2be2&text_color=c9d1d9" />
+
+<br>
+
+<code>> TELEMETRY STREAM ACTIVE...</code>
+
+</div>
+
+</details>
+
+<br>
+
+<div align="center">
+
+## `// ESTABLISH_CONNECTION`
+
+<br>
+
+<a href="https://www.linkedin.com/in/nirmalsemalti/">
+<img src="https://img.shields.io/badge/LinkedIn-Nirmal_Semalti-00ffff?style=for-the-badge&logo=linkedin&logoColor=black">
+</a>
+
+<a href="https://github.com/CODENAME-N1SE">
+<img src="https://img.shields.io/badge/GitHub-CODENAME--N1SE-8a2be2?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+<br><br>
+
+```text
+> connection established
+> packets encrypted
+> curiosity detected
+
+[ N1SE SYSTEM ONLINE ]
+```
+
+### `LEARN // CREATE // CONQUER`
 
 </div>
