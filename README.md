@@ -65,9 +65,11 @@ CURRENT_PROTOCOL:
 
 <img src="./assets/projects.svg" width="100%" />
 
-### `> ACCESSING PROJECT DATABASE...`
+<code>> ACCESSING PROJECT DATABASE...</code>
 
 </div>
+
+<br>
 
 ### `[01]` ⚙️ HYBRID CPU SCHEDULER
 
@@ -139,6 +141,8 @@ TARGET MODULES ::
 ```
 
 ![Building](https://img.shields.io/badge/STATUS-UNDER_DEVELOPMENT-ff00ff?style=for-the-badge)
+
+<br>
 
 <div align="center">
 
