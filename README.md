@@ -63,3 +63,11 @@ CURRENT_PROTOCOL:
 
 [✓] ARSENAL LOADED SUCCESSFULLY
 ```
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-ACTIVE-00ffff?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-ACTIVE-8a2be2?style=for-the-badge&logo=c&logoColor=white)
+![Java](https://img.shields.io/badge/Java-LEARNING-ff00ff?style=for-the-badge&logo=openjdk&logoColor=white)
+
+</div>
