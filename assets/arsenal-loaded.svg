@@ -1,0 +1,122 @@
+<svg width="900" height="100"
+     viewBox="0 0 900 100"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Cyberpunk animated gradient -->
+    <linearGradient id="cyberGlow"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
+
+      <stop offset="0%" stop-color="#00ffff">
+        <animate
+          attributeName="stop-color"
+          values="#00ffff;#7a00ff;#ff00ff;#00ffff"
+          dur="4s"
+          repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="50%" stop-color="#7a00ff">
+        <animate
+          attributeName="stop-color"
+          values="#7a00ff;#ff00ff;#00ffff;#7a00ff"
+          dur="4s"
+          repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="100%" stop-color="#ff00ff">
+        <animate
+          attributeName="stop-color"
+          values="#ff00ff;#00ffff;#7a00ff;#ff00ff"
+          dur="4s"
+          repeatCount="indefinite"/>
+      </stop>
+
+    </linearGradient>
+
+
+    <!-- Neon glow -->
+    <filter id="glow"
+            x="-50%"
+            y="-100%"
+            width="200%"
+            height="300%">
+
+      <feGaussianBlur
+        stdDeviation="4"
+        result="blur"/>
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+  </defs>
+
+
+  <!-- Left terminal marker -->
+
+  <text
+    x="180"
+    y="59"
+    font-family="monospace"
+    font-size="18"
+    fill="#8b949e">
+
+    STATUS ::
+
+  </text>
+
+
+  <!-- Loading brackets -->
+
+  <text
+    x="290"
+    y="59"
+    font-family="monospace"
+    font-size="18"
+    fill="#00ffff">
+
+    [████████████████████]
+
+  </text>
+
+
+  <!-- Glowing status -->
+
+  <text
+    x="535"
+    y="59"
+    font-family="monospace"
+    font-size="20"
+    font-weight="bold"
+    letter-spacing="3"
+    fill="url(#cyberGlow)"
+    filter="url(#glow)">
+
+    ARSENAL LOADED
+
+  </text>
+
+
+  <!-- Pulsing status dot -->
+
+  <circle
+    cx="735"
+    cy="53"
+    r="5"
+    fill="#00ff9c">
+
+    <animate
+      attributeName="opacity"
+      values="1;0.2;1"
+      dur="1.2s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+</svg>
