@@ -6,10 +6,7 @@
 
   <defs>
 
-    <!-- =====================================================
-         CYBERPUNK COLOR GRADIENT
-         ===================================================== -->
-
+    <!-- CYBERPUNK GRADIENT -->
     <linearGradient id="cyberGradient"
                     x1="0%" y1="0%"
                     x2="100%" y2="0%">
@@ -18,7 +15,7 @@
         <animate
           attributeName="stop-color"
           values="#00ffff;#4da6ff;#8a2be2;#ff00ff;#00ffff"
-          dur="12s"
+          dur="10s"
           repeatCount="indefinite"/>
       </stop>
 
@@ -26,7 +23,7 @@
         <animate
           attributeName="stop-color"
           values="#7a00ff;#ff00ff;#00ffff;#7a00ff"
-          dur="12s"
+          dur="10s"
           repeatCount="indefinite"/>
       </stop>
 
@@ -34,25 +31,21 @@
         <animate
           attributeName="stop-color"
           values="#ff00ff;#00ffff;#7a00ff;#ff00ff"
-          dur="12s"
+          dur="10s"
           repeatCount="indefinite"/>
       </stop>
 
     </linearGradient>
 
-
-    <!-- =====================================================
-         NEON GLOW
-         ===================================================== -->
-
+    <!-- NEON GLOW -->
     <filter id="glow"
-            x="-30%"
+            x="-20%"
             y="-100%"
-            width="160%"
+            width="150%"
             height="300%">
 
       <feGaussianBlur
-        stdDeviation="2"
+        stdDeviation="1.8"
         result="blur"/>
 
       <feMerge>
@@ -62,12 +55,347 @@
 
     </filter>
 
+
+    <!-- =============================================
+         CLIP 1 — NIRMAL SEMALTI
+         ============================================= -->
+
+    <clipPath id="clip1">
+
+      <rect x="100" y="62" width="0" height="32">
+
+        <animate
+          attributeName="width"
+          dur="30s"
+          repeatCount="indefinite"
+          calcMode="linear"
+
+          values="
+          0;
+          168;
+          168;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0
+          "
+
+          keyTimes="
+          0;
+          0.10;
+          0.15;
+          0.20;
+          0.21;
+          0.25;
+          0.30;
+          0.35;
+          0.40;
+          0.45;
+          0.50;
+          0.55;
+          0.60;
+          0.65;
+          0.70;
+          0.75;
+          0.80;
+          0.85;
+          0.90;
+          0.95;
+          1
+          "/>
+
+      </rect>
+
+    </clipPath>
+
+
+    <!-- =============================================
+         CLIP 2 — PROGRAMMER. PROBLEM SOLVER.
+         ============================================= -->
+
+    <clipPath id="clip2">
+
+      <rect x="100" y="62" width="0" height="32">
+
+        <animate
+          attributeName="width"
+          dur="30s"
+          repeatCount="indefinite"
+          calcMode="linear"
+
+          values="
+          0;
+          0;
+          0;
+          0;
+          0;
+          300;
+          300;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0
+          "
+
+          keyTimes="
+          0;
+          0.10;
+          0.15;
+          0.20;
+          0.21;
+          0.31;
+          0.36;
+          0.43;
+          0.44;
+          0.48;
+          0.52;
+          0.56;
+          0.60;
+          0.64;
+          0.68;
+          0.72;
+          0.76;
+          0.80;
+          0.86;
+          0.93;
+          1
+          "/>
+
+      </rect>
+
+    </clipPath>
+
+
+    <!-- =============================================
+         CLIP 3 — BUILDING WHAT I ONCE COULDN'T.
+         ============================================= -->
+
+    <clipPath id="clip3">
+
+      <rect x="100" y="62" width="0" height="32">
+
+        <animate
+          attributeName="width"
+          dur="30s"
+          repeatCount="indefinite"
+          calcMode="linear"
+
+          values="
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          340;
+          340;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0
+          "
+
+          keyTimes="
+          0;
+          0.10;
+          0.15;
+          0.20;
+          0.25;
+          0.30;
+          0.35;
+          0.40;
+          0.44;
+          0.54;
+          0.59;
+          0.66;
+          0.67;
+          0.70;
+          0.73;
+          0.76;
+          0.80;
+          0.84;
+          0.89;
+          0.94;
+          1
+          "/>
+
+      </rect>
+
+    </clipPath>
+
+
+    <!-- =============================================
+         CLIP 4 — STILL A LONG WAY TO GO.
+         ============================================= -->
+
+    <clipPath id="clip4">
+
+      <rect x="100" y="62" width="0" height="32">
+
+        <animate
+          attributeName="width"
+          dur="30s"
+          repeatCount="indefinite"
+          calcMode="linear"
+
+          values="
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          260;
+          260;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0
+          "
+
+          keyTimes="
+          0;
+          0.10;
+          0.15;
+          0.20;
+          0.25;
+          0.30;
+          0.35;
+          0.40;
+          0.45;
+          0.50;
+          0.55;
+          0.60;
+          0.67;
+          0.75;
+          0.80;
+          0.86;
+          0.87;
+          0.89;
+          0.92;
+          0.96;
+          1
+          "/>
+
+      </rect>
+
+    </clipPath>
+
+
+    <!-- =============================================
+         CLIP 5 — KEEP BUILDING.
+         ============================================= -->
+
+    <clipPath id="clip5">
+
+      <rect x="100" y="62" width="0" height="32">
+
+        <animate
+          attributeName="width"
+          dur="30s"
+          repeatCount="indefinite"
+          calcMode="linear"
+
+          values="
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          0;
+          155;
+          155;
+          0;
+          0
+          "
+
+          keyTimes="
+          0;
+          0.10;
+          0.15;
+          0.20;
+          0.25;
+          0.30;
+          0.35;
+          0.40;
+          0.45;
+          0.50;
+          0.55;
+          0.60;
+          0.65;
+          0.70;
+          0.75;
+          0.80;
+          0.87;
+          0.92;
+          0.97;
+          0.995;
+          1
+          "/>
+
+      </rect>
+
+    </clipPath>
+
   </defs>
 
 
-  <!-- =====================================================
-       COMMAND
-       ===================================================== -->
+  <!-- =============================================
+       TERMINAL COMMAND
+       ============================================= -->
 
   <text
     x="70"
@@ -82,9 +410,7 @@
   </text>
 
 
-  <!-- =====================================================
-       TERMINAL PROMPT
-       ===================================================== -->
+  <!-- TERMINAL RESPONSE SYMBOL -->
 
   <text
     x="70"
@@ -99,14 +425,9 @@
   </text>
 
 
-  <!-- =====================================================
-       ANIMATED RESPONSE
-
-       We use a discrete values animation.
-
-       Each entry represents one terminal frame:
-       type -> pause -> erase -> next phrase.
-       ===================================================== -->
+  <!-- =============================================
+       PHRASE 1
+       ============================================= -->
 
   <text
     x="100"
@@ -114,287 +435,94 @@
     font-family="monospace"
     font-size="19"
     font-weight="bold"
-    letter-spacing="1"
     fill="url(#cyberGradient)"
-    filter="url(#glow)">
+    filter="url(#glow)"
+    clip-path="url(#clip1)">
 
-    <animate
-      attributeName="textContent"
-      calcMode="discrete"
-      dur="32s"
-      repeatCount="indefinite"
-
-      values="
-
-      ;
-
-      N;
-      Ni;
-      Nir;
-      Nirm;
-      Nirma;
-      Nirmal;
-      Nirmal ;
-      Nirmal S;
-      Nirmal Se;
-      Nirmal Sem;
-      Nirmal Sema;
-      Nirmal Semal;
-      Nirmal Semalt;
-      Nirmal Semalti;
-
-      Nirmal Semalti;
-      Nirmal Semalti;
-      Nirmal Semalti;
-      Nirmal Semalti;
-
-      Nirmal Semalt;
-      Nirmal Semal;
-      Nirmal Sema;
-      Nirmal Sem;
-      Nirmal Se;
-      Nirmal S;
-      Nirmal ;
-      Nirmal;
-      Nirma;
-      Nirm;
-      Nir;
-      Ni;
-      N;
-      ;
-
-      P;
-      Pr;
-      Pro;
-      Prog;
-      Progr;
-      Progra;
-      Program;
-      Programm;
-      Programme;
-      Programmer;
-      Programmer.;
-      Programmer. ;
-      Programmer. P;
-      Programmer. Pr;
-      Programmer. Pro;
-      Programmer. Prob;
-      Programmer. Probl;
-      Programmer. Proble;
-      Programmer. Problem;
-      Programmer. Problem ;
-      Programmer. Problem S;
-      Programmer. Problem So;
-      Programmer. Problem Sol;
-      Programmer. Problem Solv;
-      Programmer. Problem Solve;
-      Programmer. Problem Solver;
-      Programmer. Problem Solver.;
-
-      Programmer. Problem Solver.;
-      Programmer. Problem Solver.;
-      Programmer. Problem Solver.;
-      Programmer. Problem Solver.;
-
-      Programmer. Problem Solver;
-      Programmer. Problem Solve;
-      Programmer. Problem Solv;
-      Programmer. Problem Sol;
-      Programmer. Problem So;
-      Programmer. Problem S;
-      Programmer. Problem ;
-      Programmer. Problem;
-      Programmer. Proble;
-      Programmer. Probl;
-      Programmer. Prob;
-      Programmer. Pro;
-      Programmer. Pr;
-      Programmer. P;
-      Programmer. ;
-      Programmer.;
-      Programmer;
-      Programme;
-      Programm;
-      Program;
-      Progra;
-      Progr;
-      Prog;
-      Pro;
-      Pr;
-      P;
-      ;
-
-      B;
-      Bu;
-      Bui;
-      Buil;
-      Build;
-      Buildi;
-      Buildin;
-      Building;
-      Building ;
-      Building w;
-      Building wh;
-      Building wha;
-      Building what;
-      Building what ;
-      Building what I;
-      Building what I ;
-      Building what I o;
-      Building what I on;
-      Building what I onc;
-      Building what I once;
-      Building what I once ;
-      Building what I once c;
-      Building what I once co;
-      Building what I once cou;
-      Building what I once coul;
-      Building what I once could;
-      Building what I once couldn;
-      Building what I once couldn';
-      Building what I once couldn't;
-      Building what I once couldn't.;
-
-      Building what I once couldn't.;
-      Building what I once couldn't.;
-      Building what I once couldn't.;
-      Building what I once couldn't.;
-
-      Building what I once couldn't;
-      Building what I once couldn';
-      Building what I once couldn;
-      Building what I once could;
-      Building what I once coul;
-      Building what I once cou;
-      Building what I once co;
-      Building what I once c;
-      Building what I once ;
-      Building what I once;
-      Building what I onc;
-      Building what I on;
-      Building what I o;
-      Building what I ;
-      Building what I;
-      Building what ;
-      Building what;
-      Building wha;
-      Building wh;
-      Building w;
-      Building ;
-      Building;
-      Buildin;
-      Buildi;
-      Build;
-      Buil;
-      Bui;
-      Bu;
-      B;
-      ;
-
-      S;
-      St;
-      Sti;
-      Stil;
-      Still;
-      Still ;
-      Still a;
-      Still a ;
-      Still a l;
-      Still a lo;
-      Still a lon;
-      Still a long;
-      Still a long ;
-      Still a long w;
-      Still a long wa;
-      Still a long way;
-      Still a long way ;
-      Still a long way t;
-      Still a long way to;
-      Still a long way to ;
-      Still a long way to g;
-      Still a long way to go;
-      Still a long way to go.;
-
-      Still a long way to go.;
-      Still a long way to go.;
-      Still a long way to go.;
-      Still a long way to go.;
-
-      Still a long way to go;
-      Still a long way to g;
-      Still a long way to ;
-      Still a long way to;
-      Still a long way t;
-      Still a long way ;
-      Still a long way;
-      Still a long wa;
-      Still a long w;
-      Still a long ;
-      Still a long;
-      Still a lon;
-      Still a lo;
-      Still a l;
-      Still a ;
-      Still a;
-      Still ;
-      Still;
-      Stil;
-      Sti;
-      St;
-      S;
-      ;
-
-      K;
-      Ke;
-      Kee;
-      Keep;
-      Keep ;
-      Keep b;
-      Keep bu;
-      Keep bui;
-      Keep buil;
-      Keep build;
-      Keep buildi;
-      Keep buildin;
-      Keep building;
-      Keep building.;
-
-      Keep building.;
-      Keep building.;
-      Keep building.;
-      Keep building.;
-      Keep building.;
-      Keep building.;
-
-      Keep building;
-      Keep buildin;
-      Keep buildi;
-      Keep build;
-      Keep buil;
-      Keep bui;
-      Keep bu;
-      Keep b;
-      Keep ;
-      Keep;
-      Kee;
-      Ke;
-      K;
-      ;
-
-      "
-    />
+    Nirmal Semalti
 
   </text>
 
 
-  <!-- =====================================================
-       MOVING CURSOR
+  <!-- =============================================
+       PHRASE 2
+       ============================================= -->
 
-       The cursor follows the approximate width of the
-       currently typed phrase.
+  <text
+    x="100"
+    y="87"
+    font-family="monospace"
+    font-size="19"
+    font-weight="bold"
+    fill="url(#cyberGradient)"
+    filter="url(#glow)"
+    clip-path="url(#clip2)">
 
-       We animate its x-position through the five phases.
-       ===================================================== -->
+    Programmer. Problem Solver.
+
+  </text>
+
+
+  <!-- =============================================
+       PHRASE 3
+       ============================================= -->
+
+  <text
+    x="100"
+    y="87"
+    font-family="monospace"
+    font-size="19"
+    font-weight="bold"
+    fill="url(#cyberGradient)"
+    filter="url(#glow)"
+    clip-path="url(#clip3)">
+
+    Building what I once couldn't.
+
+  </text>
+
+
+  <!-- =============================================
+       PHRASE 4
+       ============================================= -->
+
+  <text
+    x="100"
+    y="87"
+    font-family="monospace"
+    font-size="19"
+    font-weight="bold"
+    fill="url(#cyberGradient)"
+    filter="url(#glow)"
+    clip-path="url(#clip4)">
+
+    Still a long way to go.
+
+  </text>
+
+
+  <!-- =============================================
+       PHRASE 5
+       ============================================= -->
+
+  <text
+    x="100"
+    y="87"
+    font-family="monospace"
+    font-size="19"
+    font-weight="bold"
+    fill="url(#cyberGradient)"
+    filter="url(#glow)"
+    clip-path="url(#clip5)">
+
+    Keep building.
+
+  </text>
+
+
+  <!-- =============================================
+       MOVING TERMINAL CURSOR
+       ============================================= -->
 
   <rect
     x="102"
@@ -405,60 +533,103 @@
     fill="#ff00ff"
     filter="url(#glow)">
 
-    <!-- approximate cursor movement -->
+    <!--
+      Cursor timeline:
+
+      Phrase 1:
+      start -> type -> pause -> erase
+
+      Phrase 2:
+      start -> type -> pause -> erase
+
+      Phrase 3:
+      start -> type -> pause -> erase
+
+      Phrase 4:
+      start -> type -> pause -> erase
+
+      Phrase 5:
+      start -> type -> longer pause -> erase
+    -->
 
     <animate
       attributeName="x"
-      calcMode="linear"
-      dur="32s"
+      dur="30s"
       repeatCount="indefinite"
+      calcMode="linear"
+
       values="
       102;
-      275;
-      102;
-      410;
-      102;
-      455;
-      102;
-      370;
-      102;
       270;
+      270;
+      102;
+
+      102;
+      400;
+      400;
+      102;
+
+      102;
+      440;
+      440;
+      102;
+
+      102;
+      360;
+      360;
+      102;
+
+      102;
+      257;
+      257;
       102
       "
+
       keyTimes="
       0;
-      0.12;
+      0.10;
+      0.15;
       0.20;
-      0.35;
-      0.46;
-      0.60;
-      0.70;
+
+      0.21;
+      0.31;
+      0.36;
+      0.43;
+
+      0.44;
+      0.54;
+      0.59;
+      0.66;
+
+      0.67;
+      0.75;
       0.80;
-      0.88;
-      0.94;
+      0.86;
+
+      0.87;
+      0.92;
+      0.97;
       1
-      "
-    />
+      "/>
 
-
-    <!-- cursor blink -->
+    <!-- CURSOR BLINK -->
 
     <animate
       attributeName="opacity"
       values="1;1;0;0;1"
-      dur="0.75s"
+      dur="0.7s"
       repeatCount="indefinite"/>
 
   </rect>
 
 
-  <!-- =====================================================
+  <!-- =============================================
        SYSTEM STATUS
-       ===================================================== -->
+       ============================================= -->
 
   <circle
     cx="73"
-    cy="121"
+    cy="120"
     r="3"
     fill="#00ff9c">
 
@@ -473,7 +644,7 @@
 
   <text
     x="87"
-    y="125"
+    y="124"
     font-family="monospace"
     font-size="9"
     letter-spacing="3"
