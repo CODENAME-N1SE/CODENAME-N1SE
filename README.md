@@ -1,10 +1,10 @@
-**<div align="center">
+<div align="center">
 
 <img src="./assets/cyber-headerV3.svg" width="100%" />
 
 <img src="./assets/identity-stream.svg" width="100%" />
 
-Building my foundations in software engineering through
+Building my foundations in software engineering through  
 algorithms, systems, databases and real-world projects.
 
 <br><br>
@@ -25,7 +25,7 @@ algorithms, systems, databases and real-world projects.
 
 <br>
 
-```text id="d48rgc"
+```text
 ┌──[ N1SE@github ]─[ ~/identity ]
 │
 ├── USER       :: Nirmal Semalti
@@ -71,7 +71,7 @@ SOURCE       :: GITHUB
 
 <img src="./assets/arsenal.svg" width="100%" />
 
-<code>> LOADING CORE MODULES...</code>
+<code>&gt; LOADING CORE MODULES...</code>
 
 <br>
 
@@ -79,7 +79,7 @@ SOURCE       :: GITHUB
 
 </div>
 
-```text id="i5mnhd"
+```text
 ┌──[ N1SE@github ]─[ ~/tech_arsenal ]
 │
 ├── LANGUAGES
@@ -117,7 +117,7 @@ SOURCE       :: GITHUB
 
 <img src="./assets/projects.svg" width="100%" />
 
-<code>> QUERYING LATEST REPOSITORIES...</code>
+<code>&gt; QUERYING LATEST REPOSITORIES...</code>
 
 </div>
 
@@ -205,7 +205,7 @@ N1SE://PROJECT_DATABASE
 
 <br>
 
-```yaml id="zxavdg"
+```yaml
 DEVELOPMENT:
   - Strengthen Data Structures & Algorithms
   - Build larger real-world applications
@@ -236,7 +236,7 @@ LONG_TERM:
 
 <br>
 
-```text id="bhcjue"
+```text
 N1SE://DEVELOPER_SIGNAL
 
 PROFILE STATUS    :: ONLINE
@@ -266,6 +266,38 @@ SYSTEM STATE      :: BUILDING
 
 <div align="center">
 
+<h3>🐍 // CONTRIBUTION_STREAM</h3>
+
+<code>&gt; CONSUMING CONTRIBUTION DATA...</code>
+
+<br><br>
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/CODENAME-N1SE/CODENAME-N1SE/gh-pages/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/CODENAME-N1SE/CODENAME-N1SE/gh-pages/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="CODENAME-N1SE contribution snake"
+    src="https://raw.githubusercontent.com/CODENAME-N1SE/CODENAME-N1SE/gh-pages/github-contribution-grid-snake-dark.svg"
+    width="100%"
+  />
+</picture>
+
+<br>
+
+<sub><code>N1SE://CONTRIBUTION_MATRIX ACTIVE</code></sub>
+
+</div>
+
+<br>
+
+<div align="center">
+
 <h3>// ESTABLISH_CONNECTION</h3>
 
 <a href="https://www.linkedin.com/in/nirmalsemalti/">
@@ -281,4 +313,3 @@ SYSTEM STATE      :: BUILDING
 <img src="./assets/system-footer.svg" width="100%" />
 
 </div>
-**
