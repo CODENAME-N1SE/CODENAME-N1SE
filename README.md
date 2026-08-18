@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/cyber-header.svg" width="100%" />
+<img src="./assets/cyber-headerV3.svg" width="100%" />
 
 <img src="./assets/identity-stream.svg" width="100%" />
 
