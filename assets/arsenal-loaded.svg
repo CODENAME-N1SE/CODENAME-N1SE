@@ -1,10 +1,9 @@
-<svg width="900" height="100"
-     viewBox="0 0 900 100"
+<svg width="520" height="55"
+     viewBox="0 0 520 55"
      xmlns="http://www.w3.org/2000/svg">
 
   <defs>
 
-    <!-- Cyberpunk animated gradient -->
     <linearGradient id="cyberGlow"
                     x1="0%" y1="0%"
                     x2="100%" y2="0%">
@@ -35,20 +34,15 @@
 
     </linearGradient>
 
-
-    <!-- Neon glow -->
     <filter id="glow"
-            x="-50%"
-            y="-100%"
-            width="200%"
-            height="300%">
+            x="-30%"
+            y="-80%"
+            width="160%"
+            height="260%">
 
-      <feGaussianBlur
-        stdDeviation="4"
-        result="blur"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
 
       <feMerge>
-        <feMergeNode in="blur"/>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
@@ -57,44 +51,41 @@
 
   </defs>
 
-
-  <!-- Left terminal marker -->
+  <!-- Status -->
 
   <text
-    x="180"
-    y="59"
+    x="5"
+    y="34"
     font-family="monospace"
-    font-size="18"
+    font-size="14"
     fill="#8b949e">
 
     STATUS ::
 
   </text>
 
-
-  <!-- Loading brackets -->
+  <!-- Progress bar -->
 
   <text
-    x="290"
-    y="59"
+    x="85"
+    y="34"
     font-family="monospace"
-    font-size="18"
+    font-size="14"
     fill="#00ffff">
 
-    [████████████████████]
+    [██████████]
 
   </text>
 
-
-  <!-- Glowing status -->
+  <!-- Glowing text -->
 
   <text
-    x="535"
-    y="59"
+    x="220"
+    y="34"
     font-family="monospace"
-    font-size="20"
+    font-size="16"
     font-weight="bold"
-    letter-spacing="3"
+    letter-spacing="2"
     fill="url(#cyberGlow)"
     filter="url(#glow)">
 
@@ -102,13 +93,12 @@
 
   </text>
 
-
-  <!-- Pulsing status dot -->
+  <!-- Online indicator -->
 
   <circle
-    cx="735"
-    cy="53"
-    r="5"
+    cx="390"
+    cy="29"
+    r="4"
     fill="#00ff9c">
 
     <animate
