@@ -1,0 +1,143 @@
+<svg width="900" height="130"
+     viewBox="0 0 900 130"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <linearGradient id="footerGradient"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
+
+      <stop offset="0%" stop-color="#00ffff">
+        <animate attributeName="stop-color"
+          values="#00ffff;#8a2be2;#ff00ff;#00ffff"
+          dur="7s"
+          repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="100%" stop-color="#ff00ff">
+        <animate attributeName="stop-color"
+          values="#ff00ff;#00ffff;#8a2be2;#ff00ff"
+          dur="7s"
+          repeatCount="indefinite"/>
+      </stop>
+
+    </linearGradient>
+
+    <filter id="footerGlow"
+            x="-30%" y="-100%"
+            width="160%" height="300%">
+
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+  </defs>
+
+
+  <!-- top rail -->
+
+  <line x1="100" y1="25" x2="800" y2="25"
+        stroke="#30363d"/>
+
+
+  <!-- slow scanner -->
+
+  <rect
+    x="100"
+    y="24"
+    width="100"
+    height="2"
+    fill="url(#footerGradient)"
+    filter="url(#footerGlow)">
+
+    <animate
+      attributeName="x"
+      values="100;700;100"
+      dur="10s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- system state -->
+
+  <circle
+    cx="325"
+    cy="63"
+    r="4"
+    fill="#00ff9c">
+
+    <animate
+      attributeName="opacity"
+      values="1;0.2;1"
+      dur="1.5s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <text
+    x="450"
+    y="68"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="15"
+    font-weight="bold"
+    letter-spacing="4"
+    fill="url(#footerGradient)"
+    filter="url(#footerGlow)">
+
+    N1SE SYSTEM ONLINE
+
+  </text>
+
+
+  <!-- motto -->
+
+  <text
+    x="450"
+    y="98"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="10"
+    letter-spacing="6"
+    fill="#8b949e">
+
+    LEARN // CREATE // CONQUER
+
+  </text>
+
+
+  <!-- little retro data -->
+
+  <text
+    x="100"
+    y="118"
+    font-family="monospace"
+    font-size="7"
+    fill="#484f58">
+
+    EOF://N1SE
+
+  </text>
+
+
+  <text
+    x="800"
+    y="118"
+    text-anchor="end"
+    font-family="monospace"
+    font-size="7"
+    fill="#484f58">
+
+    SESSION://ACTIVE
+
+  </text>
+
+</svg>
