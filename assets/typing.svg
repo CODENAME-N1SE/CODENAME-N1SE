@@ -1,29 +1,32 @@
 <svg
   width="900"
-  height="145"
-  viewBox="0 0 900 145"
+  height="125"
+  viewBox="0 0 900 125"
   xmlns="http://www.w3.org/2000/svg">
 
   <defs>
 
-    <!-- CYBERPUNK GRADIENT -->
-    <linearGradient id="cyberGradient"
-                    x1="0%" y1="0%"
-                    x2="100%" y2="0%">
+    <!-- NEON GRADIENT -->
+    <linearGradient
+      id="cyberGradient"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="0%">
 
       <stop offset="0%" stop-color="#00ffff">
         <animate
           attributeName="stop-color"
           values="#00ffff;#4da6ff;#8a2be2;#ff00ff;#00ffff"
-          dur="10s"
+          dur="8s"
           repeatCount="indefinite"/>
       </stop>
 
-      <stop offset="50%" stop-color="#7a00ff">
+      <stop offset="50%" stop-color="#8a2be2">
         <animate
           attributeName="stop-color"
-          values="#7a00ff;#ff00ff;#00ffff;#7a00ff"
-          dur="10s"
+          values="#8a2be2;#ff00ff;#00ffff;#8a2be2"
+          dur="8s"
           repeatCount="indefinite"/>
       </stop>
 
@@ -31,21 +34,23 @@
         <animate
           attributeName="stop-color"
           values="#ff00ff;#00ffff;#7a00ff;#ff00ff"
-          dur="10s"
+          dur="8s"
           repeatCount="indefinite"/>
       </stop>
 
     </linearGradient>
 
-    <!-- NEON GLOW -->
-    <filter id="glow"
-            x="-20%"
-            y="-100%"
-            width="150%"
-            height="300%">
+
+    <!-- SOFT GLOW -->
+    <filter
+      id="glow"
+      x="-20%"
+      y="-100%"
+      width="150%"
+      height="300%">
 
       <feGaussianBlur
-        stdDeviation="1.8"
+        stdDeviation="1.6"
         result="blur"/>
 
       <feMerge>
@@ -55,353 +60,18 @@
 
     </filter>
 
-
-    <!-- =============================================
-         CLIP 1 — NIRMAL SEMALTI
-         ============================================= -->
-
-    <clipPath id="clip1">
-
-      <rect x="100" y="62" width="0" height="32">
-
-        <animate
-          attributeName="width"
-          dur="30s"
-          repeatCount="indefinite"
-          calcMode="linear"
-
-          values="
-          0;
-          168;
-          168;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0
-          "
-
-          keyTimes="
-          0;
-          0.10;
-          0.15;
-          0.20;
-          0.21;
-          0.25;
-          0.30;
-          0.35;
-          0.40;
-          0.45;
-          0.50;
-          0.55;
-          0.60;
-          0.65;
-          0.70;
-          0.75;
-          0.80;
-          0.85;
-          0.90;
-          0.95;
-          1
-          "/>
-
-      </rect>
-
-    </clipPath>
-
-
-    <!-- =============================================
-         CLIP 2 — PROGRAMMER. PROBLEM SOLVER.
-         ============================================= -->
-
-    <clipPath id="clip2">
-
-      <rect x="100" y="62" width="0" height="32">
-
-        <animate
-          attributeName="width"
-          dur="30s"
-          repeatCount="indefinite"
-          calcMode="linear"
-
-          values="
-          0;
-          0;
-          0;
-          0;
-          0;
-          300;
-          300;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0
-          "
-
-          keyTimes="
-          0;
-          0.10;
-          0.15;
-          0.20;
-          0.21;
-          0.31;
-          0.36;
-          0.43;
-          0.44;
-          0.48;
-          0.52;
-          0.56;
-          0.60;
-          0.64;
-          0.68;
-          0.72;
-          0.76;
-          0.80;
-          0.86;
-          0.93;
-          1
-          "/>
-
-      </rect>
-
-    </clipPath>
-
-
-    <!-- =============================================
-         CLIP 3 — BUILDING WHAT I ONCE COULDN'T.
-         ============================================= -->
-
-    <clipPath id="clip3">
-
-      <rect x="100" y="62" width="0" height="32">
-
-        <animate
-          attributeName="width"
-          dur="30s"
-          repeatCount="indefinite"
-          calcMode="linear"
-
-          values="
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          340;
-          340;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0
-          "
-
-          keyTimes="
-          0;
-          0.10;
-          0.15;
-          0.20;
-          0.25;
-          0.30;
-          0.35;
-          0.40;
-          0.44;
-          0.54;
-          0.59;
-          0.66;
-          0.67;
-          0.70;
-          0.73;
-          0.76;
-          0.80;
-          0.84;
-          0.89;
-          0.94;
-          1
-          "/>
-
-      </rect>
-
-    </clipPath>
-
-
-    <!-- =============================================
-         CLIP 4 — STILL A LONG WAY TO GO.
-         ============================================= -->
-
-    <clipPath id="clip4">
-
-      <rect x="100" y="62" width="0" height="32">
-
-        <animate
-          attributeName="width"
-          dur="30s"
-          repeatCount="indefinite"
-          calcMode="linear"
-
-          values="
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          260;
-          260;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0
-          "
-
-          keyTimes="
-          0;
-          0.10;
-          0.15;
-          0.20;
-          0.25;
-          0.30;
-          0.35;
-          0.40;
-          0.45;
-          0.50;
-          0.55;
-          0.60;
-          0.67;
-          0.75;
-          0.80;
-          0.86;
-          0.87;
-          0.89;
-          0.92;
-          0.96;
-          1
-          "/>
-
-      </rect>
-
-    </clipPath>
-
-
-    <!-- =============================================
-         CLIP 5 — KEEP BUILDING.
-         ============================================= -->
-
-    <clipPath id="clip5">
-
-      <rect x="100" y="62" width="0" height="32">
-
-        <animate
-          attributeName="width"
-          dur="30s"
-          repeatCount="indefinite"
-          calcMode="linear"
-
-          values="
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          0;
-          155;
-          155;
-          0;
-          0
-          "
-
-          keyTimes="
-          0;
-          0.10;
-          0.15;
-          0.20;
-          0.25;
-          0.30;
-          0.35;
-          0.40;
-          0.45;
-          0.50;
-          0.55;
-          0.60;
-          0.65;
-          0.70;
-          0.75;
-          0.80;
-          0.87;
-          0.92;
-          0.97;
-          0.995;
-          1
-          "/>
-
-      </rect>
-
-    </clipPath>
-
   </defs>
 
 
-  <!-- =============================================
+  <!-- =====================================================
        TERMINAL COMMAND
-       ============================================= -->
+       ===================================================== -->
 
   <text
-    x="70"
-    y="40"
+    x="55"
+    y="30"
     font-family="monospace"
-    font-size="18"
+    font-size="17"
     font-weight="bold"
     fill="#00ffff">
 
@@ -410,13 +80,13 @@
   </text>
 
 
-  <!-- TERMINAL RESPONSE SYMBOL -->
+  <!-- PROMPT -->
 
   <text
-    x="70"
-    y="87"
+    x="55"
+    y="72"
     font-family="monospace"
-    font-size="19"
+    font-size="18"
     font-weight="bold"
     fill="#8b949e">
 
@@ -425,211 +95,165 @@
   </text>
 
 
-  <!-- =============================================
-       PHRASE 1
-       ============================================= -->
+  <!-- =====================================================
+       PHRASE 01
+       ===================================================== -->
 
   <text
-    x="100"
-    y="87"
+    x="82"
+    y="72"
     font-family="monospace"
-    font-size="19"
+    font-size="18"
     font-weight="bold"
     fill="url(#cyberGradient)"
     filter="url(#glow)"
-    clip-path="url(#clip1)">
+    opacity="0">
 
     Nirmal Semalti
 
+    <animate
+      attributeName="opacity"
+      values="0;1;1;0;0"
+      keyTimes="0;0.01;0.17;0.19;1"
+      dur="25s"
+      repeatCount="indefinite"/>
+
   </text>
 
 
-  <!-- =============================================
-       PHRASE 2
-       ============================================= -->
+  <!-- =====================================================
+       PHRASE 02
+       ===================================================== -->
 
   <text
-    x="100"
-    y="87"
+    x="82"
+    y="72"
     font-family="monospace"
-    font-size="19"
+    font-size="18"
     font-weight="bold"
     fill="url(#cyberGradient)"
     filter="url(#glow)"
-    clip-path="url(#clip2)">
+    opacity="0">
 
     Programmer. Problem Solver.
 
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;0;0"
+      keyTimes="0;0.20;0.21;0.37;0.39;1"
+      dur="25s"
+      repeatCount="indefinite"/>
+
   </text>
 
 
-  <!-- =============================================
-       PHRASE 3
-       ============================================= -->
+  <!-- =====================================================
+       PHRASE 03
+       ===================================================== -->
 
   <text
-    x="100"
-    y="87"
+    x="82"
+    y="72"
     font-family="monospace"
-    font-size="19"
+    font-size="18"
     font-weight="bold"
     fill="url(#cyberGradient)"
     filter="url(#glow)"
-    clip-path="url(#clip3)">
+    opacity="0">
 
     Building what I once couldn't.
 
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;0;0"
+      keyTimes="0;0.40;0.41;0.57;0.59;1"
+      dur="25s"
+      repeatCount="indefinite"/>
+
   </text>
 
 
-  <!-- =============================================
-       PHRASE 4
-       ============================================= -->
+  <!-- =====================================================
+       PHRASE 04
+       ===================================================== -->
 
   <text
-    x="100"
-    y="87"
+    x="82"
+    y="72"
     font-family="monospace"
-    font-size="19"
+    font-size="18"
     font-weight="bold"
     fill="url(#cyberGradient)"
     filter="url(#glow)"
-    clip-path="url(#clip4)">
+    opacity="0">
 
     Still a long way to go.
 
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;0;0"
+      keyTimes="0;0.60;0.61;0.77;0.79;1"
+      dur="25s"
+      repeatCount="indefinite"/>
+
   </text>
 
 
-  <!-- =============================================
-       PHRASE 5
-       ============================================= -->
+  <!-- =====================================================
+       PHRASE 05
+       ===================================================== -->
 
   <text
-    x="100"
-    y="87"
+    x="82"
+    y="72"
     font-family="monospace"
-    font-size="19"
+    font-size="18"
     font-weight="bold"
     fill="url(#cyberGradient)"
     filter="url(#glow)"
-    clip-path="url(#clip5)">
+    opacity="0">
 
     Keep building.
+
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;0"
+      keyTimes="0;0.80;0.81;0.98;1"
+      dur="25s"
+      repeatCount="indefinite"/>
 
   </text>
 
 
-  <!-- =============================================
-       MOVING TERMINAL CURSOR
-       ============================================= -->
+  <!-- =====================================================
+       BLINKING CURSOR
+       ===================================================== -->
 
   <rect
-    x="102"
-    y="68"
-    width="9"
-    height="23"
+    x="390"
+    y="55"
+    width="8"
+    height="21"
     rx="1"
     fill="#ff00ff"
     filter="url(#glow)">
 
-    <!--
-      Cursor timeline:
-
-      Phrase 1:
-      start -> type -> pause -> erase
-
-      Phrase 2:
-      start -> type -> pause -> erase
-
-      Phrase 3:
-      start -> type -> pause -> erase
-
-      Phrase 4:
-      start -> type -> pause -> erase
-
-      Phrase 5:
-      start -> type -> longer pause -> erase
-    -->
-
-    <animate
-      attributeName="x"
-      dur="30s"
-      repeatCount="indefinite"
-      calcMode="linear"
-
-      values="
-      102;
-      270;
-      270;
-      102;
-
-      102;
-      400;
-      400;
-      102;
-
-      102;
-      440;
-      440;
-      102;
-
-      102;
-      360;
-      360;
-      102;
-
-      102;
-      257;
-      257;
-      102
-      "
-
-      keyTimes="
-      0;
-      0.10;
-      0.15;
-      0.20;
-
-      0.21;
-      0.31;
-      0.36;
-      0.43;
-
-      0.44;
-      0.54;
-      0.59;
-      0.66;
-
-      0.67;
-      0.75;
-      0.80;
-      0.86;
-
-      0.87;
-      0.92;
-      0.97;
-      1
-      "/>
-
-    <!-- CURSOR BLINK -->
-
     <animate
       attributeName="opacity"
       values="1;1;0;0;1"
-      dur="0.7s"
+      dur="0.8s"
       repeatCount="indefinite"/>
 
   </rect>
 
 
-  <!-- =============================================
+  <!-- =====================================================
        SYSTEM STATUS
-       ============================================= -->
+       ===================================================== -->
 
   <circle
-    cx="73"
-    cy="120"
+    cx="58"
+    cy="105"
     r="3"
     fill="#00ff9c">
 
@@ -643,8 +267,8 @@
 
 
   <text
-    x="87"
-    y="124"
+    x="72"
+    y="109"
     font-family="monospace"
     font-size="9"
     letter-spacing="3"
