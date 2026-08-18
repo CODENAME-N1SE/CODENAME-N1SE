@@ -1,128 +1,727 @@
-<svg width="900" height="300"
-     viewBox="0 0 900 300"
-     xmlns="http://www.w3.org/2000/svg">
+<svg
+  width="900"
+  height="300"
+  viewBox="0 0 900 300"
+  xmlns="http://www.w3.org/2000/svg">
 
   <defs>
 
-    <!-- Animated cyberpunk gradient -->
-    <linearGradient id="cyberGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- MAIN NEON GRADIENT -->
+    <linearGradient
+      id="cyberGradient"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="0%">
+
       <stop offset="0%" stop-color="#00ffff">
         <animate
           attributeName="stop-color"
-          values="#00ffff;#7a00ff;#ff00ff;#00ffff"
-          dur="4s"
+          values="#00ffff;#008cff;#8a2be2;#ff00ff;#00ffff"
+          dur="7s"
           repeatCount="indefinite"/>
       </stop>
 
-      <stop offset="50%" stop-color="#7a00ff">
+      <stop offset="50%" stop-color="#8a2be2">
         <animate
           attributeName="stop-color"
-          values="#7a00ff;#ff00ff;#00ffff;#7a00ff"
-          dur="4s"
+          values="#8a2be2;#ff00ff;#00ffff;#8a2be2"
+          dur="7s"
           repeatCount="indefinite"/>
       </stop>
 
       <stop offset="100%" stop-color="#ff00ff">
         <animate
           attributeName="stop-color"
-          values="#ff00ff;#00ffff;#7a00ff;#ff00ff"
-          dur="4s"
+          values="#ff00ff;#00ffff;#8a2be2;#ff00ff"
+          dur="7s"
           repeatCount="indefinite"/>
       </stop>
+
     </linearGradient>
 
-    <!-- Glow effect -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+
+    <!-- SCANNER GRADIENT -->
+    <linearGradient
+      id="scannerGradient"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="0%">
+
+      <stop
+        offset="0%"
+        stop-color="#00ffff"
+        stop-opacity="0"/>
+
+      <stop
+        offset="45%"
+        stop-color="#00ffff"
+        stop-opacity="0.3"/>
+
+      <stop
+        offset="50%"
+        stop-color="#ffffff"
+        stop-opacity="0.9"/>
+
+      <stop
+        offset="55%"
+        stop-color="#ff00ff"
+        stop-opacity="0.3"/>
+
+      <stop
+        offset="100%"
+        stop-color="#ff00ff"
+        stop-opacity="0"/>
+
+    </linearGradient>
+
+
+    <!-- MAIN GLOW -->
+    <filter
+      id="mainGlow"
+      x="-40%"
+      y="-100%"
+      width="180%"
+      height="300%">
+
+      <feGaussianBlur
+        stdDeviation="3.5"
+        result="blur"/>
+
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
+
+    </filter>
+
+
+    <!-- SMALL GLOW -->
+    <filter
+      id="smallGlow"
+      x="-40%"
+      y="-100%"
+      width="180%"
+      height="300%">
+
+      <feGaussianBlur
+        stdDeviation="1.5"
+        result="blur"/>
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
     </filter>
 
   </defs>
 
 
-  <!-- Top system label -->
+  <!-- ==========================================
+       BACKGROUND GRID
+       ========================================== -->
+
+  <g opacity="0.055">
+
+    <line x1="0" y1="50" x2="900" y2="50"
+          stroke="#00ffff"/>
+
+    <line x1="0" y1="100" x2="900" y2="100"
+          stroke="#00ffff"/>
+
+    <line x1="0" y1="150" x2="900" y2="150"
+          stroke="#00ffff"/>
+
+    <line x1="0" y1="200" x2="900" y2="200"
+          stroke="#00ffff"/>
+
+    <line x1="0" y1="250" x2="900" y2="250"
+          stroke="#00ffff"/>
+
+
+    <line x1="150" y1="0" x2="150" y2="300"
+          stroke="#8a2be2"/>
+
+    <line x1="300" y1="0" x2="300" y2="300"
+          stroke="#8a2be2"/>
+
+    <line x1="450" y1="0" x2="450" y2="300"
+          stroke="#8a2be2"/>
+
+    <line x1="600" y1="0" x2="600" y2="300"
+          stroke="#8a2be2"/>
+
+    <line x1="750" y1="0" x2="750" y2="300"
+          stroke="#8a2be2"/>
+
+  </g>
+
+
+  <!-- ==========================================
+       HUD CORNERS
+       ========================================== -->
+
+  <path
+    d="M30 58 V25 H155"
+    fill="none"
+    stroke="#00ffff"
+    stroke-width="2"
+    opacity="0.55"/>
+
+  <circle
+    cx="30"
+    cy="58"
+    r="3"
+    fill="#00ffff"/>
+
+
+  <path
+    d="M745 25 H870 V58"
+    fill="none"
+    stroke="#ff00ff"
+    stroke-width="2"
+    opacity="0.55"/>
+
+  <circle
+    cx="870"
+    cy="58"
+    r="3"
+    fill="#ff00ff"/>
+
+
+  <path
+    d="M30 242 V275 H155"
+    fill="none"
+    stroke="#8a2be2"
+    stroke-width="2"
+    opacity="0.45"/>
+
+
+  <path
+    d="M745 275 H870 V242"
+    fill="none"
+    stroke="#00ffff"
+    stroke-width="2"
+    opacity="0.45"/>
+
+
+  <!-- ==========================================
+       TOP HUD
+       ========================================== -->
 
   <text
-    x="450"
-    y="45"
-    text-anchor="middle"
+    x="55"
+    y="48"
     font-family="monospace"
-    font-size="15"
-    letter-spacing="4"
+    font-size="10"
+    letter-spacing="3"
     fill="#00ffff">
 
-    SYSTEM://N1SE
+    N1SE://IDENTITY_NODE
 
   </text>
 
 
-  <!-- Main name -->
+  <circle
+    cx="765"
+    cy="43"
+    r="4"
+    fill="#00ff9c">
+
+    <animate
+      attributeName="opacity"
+      values="1;0.25;1"
+      dur="1.4s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <text
+    x="780"
+    y="47"
+    font-family="monospace"
+    font-size="10"
+    letter-spacing="2"
+    fill="#00ff9c">
+
+    ONLINE
+
+  </text>
+
+
+  <!-- ==========================================
+       ONE-TIME IDENTITY GLITCH
+       ========================================== -->
+
+
+  <!-- FRAME 01 -->
 
   <text
     x="450"
-    y="125"
+    y="137"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="48"
+    font-weight="bold"
+    letter-spacing="5"
+    fill="#00ffff"
+    filter="url(#mainGlow)"
+    opacity="0">
+
+    N1RMAL SEMALTI
+
+    <animate
+      attributeName="opacity"
+      values="1;1;0"
+      keyTimes="0;0.12;1"
+      dur="0.18s"
+      begin="0s"
+      repeatCount="1"
+      fill="freeze"/>
+
+  </text>
+
+
+  <!-- FRAME 02 -->
+
+  <text
+    x="446"
+    y="137"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="48"
+    font-weight="bold"
+    letter-spacing="5"
+    fill="#ff00ff"
+    filter="url(#mainGlow)"
+    opacity="0">
+
+    NIR#AL SEMALTI
+
+    <animate
+      attributeName="opacity"
+      values="0;1;1;0"
+      keyTimes="0;0.05;0.85;1"
+      dur="0.18s"
+      begin="0.18s"
+      repeatCount="1"
+      fill="freeze"/>
+
+  </text>
+
+
+  <!-- FRAME 03 -->
+
+  <text
+    x="455"
+    y="137"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="48"
+    font-weight="bold"
+    letter-spacing="5"
+    fill="#00ffff"
+    filter="url(#mainGlow)"
+    opacity="0">
+
+    NIRMAL S3MALTI
+
+    <animate
+      attributeName="opacity"
+      values="0;1;1;0"
+      keyTimes="0;0.05;0.85;1"
+      dur="0.18s"
+      begin="0.36s"
+      repeatCount="1"
+      fill="freeze"/>
+
+  </text>
+
+
+  <!-- FRAME 04 -->
+
+  <text
+    x="445"
+    y="137"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="48"
+    font-weight="bold"
+    letter-spacing="5"
+    fill="#8a2be2"
+    filter="url(#mainGlow)"
+    opacity="0">
+
+    NIRMAL SEMΛLTI
+
+    <animate
+      attributeName="opacity"
+      values="0;1;1;0"
+      keyTimes="0;0.05;0.85;1"
+      dur="0.18s"
+      begin="0.54s"
+      repeatCount="1"
+      fill="freeze"/>
+
+  </text>
+
+
+  <!-- FRAME 05 -->
+
+  <text
+    x="454"
+    y="137"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="48"
+    font-weight="bold"
+    letter-spacing="5"
+    fill="#ff00ff"
+    filter="url(#mainGlow)"
+    opacity="0">
+
+    NIRMAL SEMAL7I
+
+    <animate
+      attributeName="opacity"
+      values="0;1;1;0"
+      keyTimes="0;0.05;0.85;1"
+      dur="0.18s"
+      begin="0.72s"
+      repeatCount="1"
+      fill="freeze"/>
+
+  </text>
+
+
+  <!-- ==========================================
+       FINAL SIGNAL SPLIT
+       ========================================== -->
+
+  <text
+    x="443"
+    y="137"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="48"
+    font-weight="bold"
+    letter-spacing="5"
+    fill="#00ffff"
+    opacity="0">
+
+    NIRMAL SEMALTI
+
+    <animate
+      attributeName="opacity"
+      values="0;0.45;0"
+      dur="0.15s"
+      begin="0.90s"
+      repeatCount="1"
+      fill="freeze"/>
+
+  </text>
+
+
+  <text
+    x="457"
+    y="137"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="48"
+    font-weight="bold"
+    letter-spacing="5"
+    fill="#ff00ff"
+    opacity="0">
+
+    NIRMAL SEMALTI
+
+    <animate
+      attributeName="opacity"
+      values="0;0.40;0"
+      dur="0.15s"
+      begin="0.90s"
+      repeatCount="1"
+      fill="freeze"/>
+
+  </text>
+
+
+  <!-- ==========================================
+       FINAL STABLE NAME
+       ========================================== -->
+
+  <text
+    x="450"
+    y="137"
     text-anchor="middle"
     font-family="monospace"
     font-size="48"
     font-weight="bold"
     letter-spacing="5"
     fill="url(#cyberGradient)"
-    filter="url(#glow)">
+    filter="url(#mainGlow)"
+    opacity="0">
 
     NIRMAL SEMALTI
 
+    <animate
+      attributeName="opacity"
+      values="0;1"
+      dur="0.2s"
+      begin="1.05s"
+      repeatCount="1"
+      fill="freeze"/>
+
   </text>
 
 
-  <!-- Codename -->
+  <!-- ==========================================
+       IDENTITY VERIFIED
+       ========================================== -->
 
   <text
     x="450"
-    y="165"
+    y="161"
     text-anchor="middle"
     font-family="monospace"
-    font-size="18"
+    font-size="8"
+    letter-spacing="4"
+    fill="#00ff9c"
+    opacity="0">
+
+    [ IDENTITY VERIFIED ]
+
+    <animate
+      attributeName="opacity"
+      values="0;1"
+      dur="0.35s"
+      begin="1.20s"
+      repeatCount="1"
+      fill="freeze"/>
+
+  </text>
+
+
+  <!-- ==========================================
+       CODENAME
+       ========================================== -->
+
+  <text
+    x="450"
+    y="185"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="15"
+    font-weight="bold"
     letter-spacing="7"
-    fill="#b026ff">
+    fill="#b026ff"
+    opacity="0">
 
     &lt; CODENAME_N1SE /&gt;
 
+    <animate
+      attributeName="opacity"
+      values="0;1"
+      dur="0.5s"
+      begin="1.35s"
+      repeatCount="1"
+      fill="freeze"/>
+
   </text>
 
 
-  <!-- Loading text -->
+  <!-- ==========================================
+       SCANNER RAIL
+       ========================================== -->
+
+  <line
+    x1="100"
+    y1="207"
+    x2="800"
+    y2="207"
+    stroke="#30363d"
+    stroke-width="1"/>
+
+
+  <!-- ==========================================
+       SLOW CONTINUOUS SCANNER
+       ========================================== -->
+
+  <rect
+    x="-300"
+    y="206"
+    width="300"
+    height="2"
+    fill="url(#scannerGradient)"
+    filter="url(#smallGlow)"
+    opacity="0.60">
+
+    <animate
+      attributeName="x"
+      values="-300;900"
+      dur="9s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- ==========================================
+       DIAGNOSTICS
+       ========================================== -->
+
+  <text
+    x="100"
+    y="233"
+    font-family="monospace"
+    font-size="9"
+    letter-spacing="2"
+    fill="#8b949e">
+
+    ACCESS://GRANTED
+
+  </text>
+
 
   <text
     x="450"
-    y="215"
+    y="233"
     text-anchor="middle"
     font-family="monospace"
-    font-size="14"
+    font-size="9"
+    letter-spacing="2"
     fill="#8b949e">
 
-    INITIALIZING DEVELOPER PROFILE...
+    SIGNAL://100%
+
+    <animate
+      attributeName="opacity"
+      values="0.45;1;0.45"
+      dur="2.8s"
+      repeatCount="indefinite"/>
 
   </text>
 
 
-  <!-- Online indicator -->
+  <text
+    x="800"
+    y="233"
+    text-anchor="end"
+    font-family="monospace"
+    font-size="9"
+    letter-spacing="2"
+    fill="#8b949e">
 
-  <circle cx="372" cy="255" r="5" fill="#00ff9c">
+    NODE://ACTIVE
+
+  </text>
+
+
+  <!-- ==========================================
+       SUBTLE DATA PARTICLES
+       ========================================== -->
+
+  <circle
+    cx="180"
+    cy="82"
+    r="2"
+    fill="#00ffff">
+
+    <animate
+      attributeName="cy"
+      values="82;67;82"
+      dur="5s"
+      repeatCount="indefinite"/>
+
+    <animate
+      attributeName="opacity"
+      values="0.1;0.6;0.1"
+      dur="5s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle
+    cx="710"
+    cy="98"
+    r="2"
+    fill="#ff00ff">
+
+    <animate
+      attributeName="cy"
+      values="98;78;98"
+      dur="6s"
+      repeatCount="indefinite"/>
+
+    <animate
+      attributeName="opacity"
+      values="0.1;0.55;0.1"
+      dur="6s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle
+    cx="230"
+    cy="220"
+    r="1.5"
+    fill="#8a2be2"
+    opacity="0.35">
+
+    <animate
+      attributeName="cx"
+      values="230;270;230"
+      dur="7s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <circle
+    cx="665"
+    cy="220"
+    r="1.5"
+    fill="#00ffff"
+    opacity="0.35">
+
+    <animate
+      attributeName="cx"
+      values="665;625;665"
+      dur="6.5s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- ==========================================
+       SYSTEM ONLINE
+       ========================================== -->
+
+  <circle
+    cx="365"
+    cy="264"
+    r="4"
+    fill="#00ff9c">
+
     <animate
       attributeName="opacity"
       values="1;0.2;1"
       dur="1.5s"
       repeatCount="indefinite"/>
+
   </circle>
 
+
   <text
-    x="390"
-    y="260"
+    x="382"
+    y="268"
     font-family="monospace"
-    font-size="14"
+    font-size="11"
+    font-weight="bold"
     letter-spacing="3"
     fill="#00ff9c">
 
