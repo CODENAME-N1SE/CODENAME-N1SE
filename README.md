@@ -23,3 +23,17 @@ CURRENT_PROTOCOL:
   - Strengthen Data Structures & Algorithms
   - Explore software engineering
   - Turn ideas into working systems
+
+<div align="center">
+
+<img src="./assets/arsenal.svg" width="100%" />
+
+### `> LOADING CORE MODULES...`
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=python,c,java,html,css,mysql,git,github&theme=dark" />
+
+<br><br>
+
+</div>
