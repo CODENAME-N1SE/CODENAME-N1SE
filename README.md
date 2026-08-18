@@ -45,7 +45,7 @@ algorithms, systems, databases and real-world projects.
 
 `NO ACTIVE PROJECT DETECTED`
 
-Add the `currently-building` topic to the repository you're actively developing.
+Add the `currently-building` topic to the repository you are actively developing.
 
 <!-- CURRENTLY_BUILDING:END -->
 
@@ -115,7 +115,73 @@ Add the `currently-building` topic to the repository you're actively developing.
 
 <!-- LATEST_PROJECTS:START -->
 
-`PROJECT DATABASE INITIALIZING...`
+### `[01]` ⚡ BANK MANAGEMNET
+
+```text
+LANGUAGE     :: Multiple / Not detected
+STATUS       :: PUBLISHED
+LAST UPDATE  :: 18 AUG 2026
+
+DESCRIPTION ::
+Python-based banking management system using OOP and SQL for account and transaction management.
+```
+
+[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-00ffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/Bank-Managemnet)
+
+<br>
+
+### `[02]` ⚡ FILE HANDLING PROJECT USING PYTHON
+
+```text
+LANGUAGE     :: Python
+STATUS       :: PUBLISHED
+LAST UPDATE  :: 04 JUL 2026
+
+DESCRIPTION ::
+No description provided yet.
+```
+
+[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-8a2be2?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/File-Handling-Project-Using-Python)
+
+<br>
+
+### `[03]` ⚡ HYBRID CPU SCHEDULER
+
+```text
+LANGUAGE     :: C
+STATUS       :: PUBLISHED
+LAST UPDATE  :: 28 MAY 2026
+
+DESCRIPTION ::
+Hybrid CPU Scheduling Algorithm in C featuring Real-Time, Interactive, and Batch process handling with preemption, aging, waiting time, and turnaround time calculation.
+```
+
+[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-ff00ff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/Hybrid-CPU-Scheduler)
+
+<br>
+
+### `[04]` ⚡ MOVIE MANAGEMENT SYSTEM
+
+```text
+LANGUAGE     :: C
+STATUS       :: PUBLISHED
+LAST UPDATE  :: 28 MAY 2026
+
+DESCRIPTION ::
+A simple Movie Ticket Booking System developed in C using Data Structures concepts. The project uses a 2D array to manage seat allocation, booking, cancellation, and availability checking. File handling is implemented to store booking data permanently.
+```
+
+[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-00ffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/Movie-Management-System)
+
+<br>
+
+```text
+N1SE://PROJECT_DATABASE
+
+04 LATEST PROJECTS LOADED
+
+> DATABASE QUERY COMPLETE_
+```
 
 <!-- LATEST_PROJECTS:END -->
 
