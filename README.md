@@ -2,14 +2,12 @@
 
 <img src="./assets/cyber-header.svg" width="100%" />
 
-<img src="./assets/typing.svg" width="100%" />
-
-### `PROGRAMMER // PROBLEM SOLVER // BUILDER`
+<img src="./assets/identity-stream.svg" width="100%" />
 
 Building my foundations in software engineering through
 algorithms, systems, databases and real-world projects.
 
-<br>
+<br><br>
 
 <img src="https://skillicons.dev/icons?i=python,c,java,html,css,mysql,git,github&theme=dark" />
 
@@ -27,7 +25,7 @@ algorithms, systems, databases and real-world projects.
 
 <br>
 
-```text id="v0k7bk"
+```text
 ┌──[ N1SE@github ]─[ ~/identity ]
 │
 ├── USER       :: Nirmal Semalti
@@ -77,7 +75,7 @@ Add the `currently-building` topic to the repository you're actively developing.
 
 <br>
 
-```text id="5u6ibp"
+```text
 ┌──[ N1SE@github ]─[ ~/tech_arsenal ]
 │
 ├── LANGUAGES
@@ -139,7 +137,7 @@ Add the `currently-building` topic to the repository you're actively developing.
 
 <br>
 
-```yaml id="atct2a"
+```yaml
 DEVELOPMENT:
   - Strengthen Data Structures & Algorithms
   - Build larger real-world applications
@@ -170,7 +168,7 @@ LONG_TERM:
 
 <br>
 
-```text id="hbrw8v"
+```text
 N1SE://DEVELOPER_SIGNAL
 
 PROFILE STATUS    :: ONLINE
@@ -212,7 +210,7 @@ SYSTEM STATE      :: BUILDING
 
 <br><br>
 
-```text id="h4k5fm"
+```text
 > connection established
 > packets encrypted
 > curiosity detected
