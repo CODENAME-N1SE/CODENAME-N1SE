@@ -6,6 +6,8 @@
 
 </div>
 
+---
+
 <h2 align="center">⚡ IDENTITY://WHO_AM_I ⚡</h2>
 
 ```yaml
@@ -24,6 +26,9 @@ CURRENT_PROTOCOL:
   - Explore software engineering
   - Turn ideas into working systems
 ```
+
+<br>
+
 <div align="center">
 
 <img src="./assets/arsenal.svg" width="100%" />
@@ -66,13 +71,27 @@ CURRENT_PROTOCOL:
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-ACTIVE-00ffff?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-ACTIVE-8a2be2?style=for-the-badge&logo=c&logoColor=white)
-![Java](https://img.shields.io/badge/Java-LEARNING-ff00ff?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-ACTIVE-00ffff?style=for-the-badge\&logo=python\&logoColor=white)
+![C](https://img.shields.io/badge/C-ACTIVE-8a2be2?style=for-the-badge\&logo=c\&logoColor=white)
+![Java](https://img.shields.io/badge/Java-FOUNDATION-ff00ff?style=for-the-badge\&logo=openjdk\&logoColor=white)
+
+<br>
+
+![SQL](https://img.shields.io/badge/SQL-ACTIVE-00ffff?style=for-the-badge\&logo=mysql\&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-ACTIVE-8a2be2?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-ACTIVE-ff00ff?style=for-the-badge\&logo=css\&logoColor=white)
+
+<br>
+
+![Git](https://img.shields.io/badge/Git-ACTIVE-00ffff?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-ACTIVE-8a2be2?style=for-the-badge\&logo=github\&logoColor=white)
+![DSA](https://img.shields.io/badge/DSA-INTERMEDIATE-ff00ff?style=for-the-badge\&logo=leetcode\&logoColor=white)
 
 </div>
 
 <br>
+
+---
 
 <div align="center">
 
@@ -89,14 +108,14 @@ CURRENT_PROTOCOL:
 ```text
 CLASS       :: SYSTEMS / ALGORITHMS
 LANGUAGE    :: C
-STATUS      :: DEPLOYED
+STATUS      :: PUBLISHED
 
 DESCRIPTION ::
 Hybrid CPU scheduling simulation built to explore
 process scheduling and operating-system concepts.
 ```
 
-[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-00ffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/Hybrid-CPU-Scheduler)
+[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-00ffff?style=for-the-badge\&logo=github\&logoColor=black)](https://github.com/CODENAME-N1SE/Hybrid-CPU-Scheduler)
 
 ---
 
@@ -105,14 +124,14 @@ process scheduling and operating-system concepts.
 ```text
 CLASS       :: MACHINE LEARNING
 LANGUAGE    :: PYTHON
-STATUS      :: DEPLOYED
+STATUS      :: PUBLISHED
 
 DESCRIPTION ::
 Machine-learning project exploring heart-disease
 risk prediction using patient data.
 ```
 
-[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-8a2be2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CODENAME-N1SE/Heart-Disease-Risk-Prediction-Model)
+[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-8a2be2?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/CODENAME-N1SE/Heart-Disease-Risk-Prediction-Model)
 
 ---
 
@@ -121,14 +140,14 @@ risk prediction using patient data.
 ```text
 CLASS       :: MANAGEMENT SYSTEM
 LANGUAGE    :: C
-STATUS      :: DEPLOYED
+STATUS      :: PUBLISHED
 
 DESCRIPTION ::
 C-based movie management system demonstrating
 structured programming and file operations.
 ```
 
-[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-ff00ff?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CODENAME-N1SE/Movie-Management-System)
+[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-ff00ff?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/CODENAME-N1SE/Movie-Management-System)
 
 ---
 
@@ -140,14 +159,13 @@ LANGUAGE    :: PYTHON
 DATABASE    :: SQL
 STATUS      :: [ BUILDING... ]
 
-CURRENT OBJECTIVE ::
-Designing and developing a Python-based banking
-management system with structured account and
-transaction handling.
+OBJECTIVE ::
+Build a structured banking management system
+combining Python, OOP and database concepts.
 
-PLANNED MODULES ::
+TARGET MODULES ::
 ├── Account Management
-├── User Authentication
+├── Authentication
 ├── Deposits & Withdrawals
 ├── Fund Transfers
 ├── Transaction History
@@ -161,14 +179,20 @@ PLANNED MODULES ::
 <div align="center">
 
 ```text
-[ N1SE://PROJECT_DATABASE ]
-
-3 SYSTEMS DEPLOYED
-1 SYSTEM UNDER DEVELOPMENT
-
-> DATABASE QUERY COMPLETE_
+╔══════════════════════════════════╗
+║      N1SE://PROJECT_DATABASE     ║
+╠══════════════════════════════════╣
+║                                  ║
+║   03 PROJECTS PUBLISHED          ║
+║   01 PROJECT IN DEVELOPMENT      ║
+║                                  ║
+║   > DATABASE QUERY COMPLETE_     ║
+║                                  ║
+╚══════════════════════════════════╝
 ```
 
 </div>
 
 <br>
+
+---
