@@ -1,0 +1,35 @@
+<svg width="900" height="90"
+     viewBox="0 0 900 90"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .terminal {
+      font-family: monospace;
+      font-size: 20px;
+      fill: #00ffff;
+    }
+
+    .cursor {
+      fill: #ff00ff;
+      animation: blink 0.8s infinite;
+    }
+
+    @keyframes blink {
+      0%, 45%   { opacity: 1; }
+      46%, 100% { opacity: 0; }
+    }
+  </style>
+
+  <text x="50" y="52" class="terminal">
+    root@n1se:~$ whoami
+  </text>
+
+  <rect
+    x="285"
+    y="34"
+    width="11"
+    height="23"
+    class="cursor"
+  />
+
+</svg>
