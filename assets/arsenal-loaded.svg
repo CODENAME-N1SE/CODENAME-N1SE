@@ -1,5 +1,5 @@
-<svg width="520" height="55"
-     viewBox="0 0 520 55"
+<svg width="600" height="46"
+     viewBox="0 0 600 46"
      xmlns="http://www.w3.org/2000/svg">
 
   <defs>
@@ -35,12 +35,12 @@
     </linearGradient>
 
     <filter id="glow"
-            x="-30%"
+            x="-20%"
             y="-80%"
-            width="160%"
+            width="140%"
             height="260%">
 
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
 
       <feMerge>
         <feMergeNode in="blur"/>
@@ -51,11 +51,10 @@
 
   </defs>
 
-  <!-- Status -->
 
   <text
-    x="5"
-    y="34"
+    x="0"
+    y="29"
     font-family="monospace"
     font-size="14"
     fill="#8b949e">
@@ -64,24 +63,22 @@
 
   </text>
 
-  <!-- Progress bar -->
 
   <text
-    x="85"
-    y="34"
+    x="82"
+    y="29"
     font-family="monospace"
     font-size="14"
     fill="#00ffff">
 
-    [██████████]
+    [████████████]
 
   </text>
 
-  <!-- Glowing text -->
 
   <text
-    x="220"
-    y="34"
+    x="235"
+    y="29"
     font-family="monospace"
     font-size="16"
     font-weight="bold"
@@ -93,17 +90,16 @@
 
   </text>
 
-  <!-- Online indicator -->
 
   <circle
-    cx="390"
-    cy="29"
+    cx="411"
+    cy="24"
     r="4"
     fill="#00ff9c">
 
     <animate
       attributeName="opacity"
-      values="1;0.2;1"
+      values="1;0.25;1"
       dur="1.2s"
       repeatCount="indefinite"/>
 
