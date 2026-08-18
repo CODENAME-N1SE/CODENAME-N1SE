@@ -43,9 +43,9 @@ algorithms, systems, databases and real-world projects.
 
 <!-- CURRENTLY_BUILDING:START -->
 
-### ⚡ BANK MANAGEMNET
+### ⚡ BANK MANAGEMENT SYSTEM
 
-`Multiple / Not detected` • `ACTIVE DEVELOPMENT`
+`Python` • `ACTIVE DEVELOPMENT`
 
 Python-based banking management system using OOP and SQL for account and transaction management.
 
@@ -55,7 +55,7 @@ LAST SIGNAL  :: 18 AUG 2026
 SOURCE       :: GITHUB
 ```
 
-[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-00ffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/Bank-Managemnet)
+[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-00ffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/Bank-Management-System)
 
 <!-- CURRENTLY_BUILDING:END -->
 
@@ -125,10 +125,10 @@ SOURCE       :: GITHUB
 
 <!-- LATEST_PROJECTS:START -->
 
-### `[01]` ⚡ BANK MANAGEMNET
+### `[01]` ⚡ BANK MANAGEMENT SYSTEM
 
 ```text
-LANGUAGE     :: Multiple / Not detected
+LANGUAGE     :: Python
 STATUS       :: PUBLISHED
 LAST UPDATE  :: 18 AUG 2026
 
@@ -136,7 +136,7 @@ DESCRIPTION ::
 Python-based banking management system using OOP and SQL for account and transaction management.
 ```
 
-[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-00ffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/Bank-Managemnet)
+[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-00ffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/Bank-Management-System)
 
 <br>
 
