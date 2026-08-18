@@ -23,9 +23,43 @@ CURRENT_PROTOCOL:
   - Strengthen Data Structures & Algorithms
   - Explore software engineering
   - Turn ideas into working systems
+```
+<div align="center">
 
-Languages        :: Python | C | Java
-Core CS          :: DSA | Object-Oriented Programming
-Database         :: SQL
-Web              :: HTML | CSS
-Developer Tools  :: Git | GitHub
+<img src="./assets/arsenal.svg" width="100%" />
+
+### `> LOADING CORE MODULES...`
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=python,c,java,html,css,mysql,git,github&theme=dark" />
+
+<br><br>
+
+</div>
+
+```text
+┌──[ N1SE@github ]─[ ~/tech_arsenal ]
+│
+├── LANGUAGES
+│   ├── Python
+│   ├── C
+│   └── Java
+│
+├── WEB
+│   ├── HTML
+│   └── CSS
+│
+├── DATABASE
+│   └── SQL
+│
+├── CORE
+│   ├── Data Structures & Algorithms
+│   └── Object-Oriented Programming
+│
+└── TOOLS
+    ├── Git
+    └── GitHub
+
+[✓] ARSENAL LOADED SUCCESSFULLY
+```
