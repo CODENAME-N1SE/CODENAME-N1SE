@@ -2,12 +2,6 @@
 
 <img src="./assets/cyber-header.svg" width="100%" />
 
-</div>
-
-<div align="center">
-
-<img src="./assets/cyber-header.svg" width="100%" />
-
 <img src="./assets/typing.svg" width="100%" />
 
 </div>
