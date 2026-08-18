@@ -1,1 +1,133 @@
+<svg width="900" height="300"
+     viewBox="0 0 900 300"
+     xmlns="http://www.w3.org/2000/svg">
 
+  <defs>
+
+    <!-- Animated cyberpunk gradient -->
+    <linearGradient id="cyberGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ffff">
+        <animate
+          attributeName="stop-color"
+          values="#00ffff;#7a00ff;#ff00ff;#00ffff"
+          dur="4s"
+          repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="50%" stop-color="#7a00ff">
+        <animate
+          attributeName="stop-color"
+          values="#7a00ff;#ff00ff;#00ffff;#7a00ff"
+          dur="4s"
+          repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="100%" stop-color="#ff00ff">
+        <animate
+          attributeName="stop-color"
+          values="#ff00ff;#00ffff;#7a00ff;#ff00ff"
+          dur="4s"
+          repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Glow effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+
+  <!-- Top system label -->
+
+  <text
+    x="450"
+    y="45"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="15"
+    letter-spacing="4"
+    fill="#00ffff">
+
+    SYSTEM://N1SE
+
+  </text>
+
+
+  <!-- Main name -->
+
+  <text
+    x="450"
+    y="125"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="48"
+    font-weight="bold"
+    letter-spacing="5"
+    fill="url(#cyberGradient)"
+    filter="url(#glow)">
+
+    NIRMAL SEMALTI
+
+  </text>
+
+
+  <!-- Codename -->
+
+  <text
+    x="450"
+    y="165"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="18"
+    letter-spacing="7"
+    fill="#b026ff">
+
+    &lt; CODENAME_N1SE /&gt;
+
+  </text>
+
+
+  <!-- Loading text -->
+
+  <text
+    x="450"
+    y="215"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="14"
+    fill="#8b949e">
+
+    INITIALIZING DEVELOPER PROFILE...
+
+  </text>
+
+
+  <!-- Online indicator -->
+
+  <circle cx="372" cy="255" r="5" fill="#00ff9c">
+    <animate
+      attributeName="opacity"
+      values="1;0.2;1"
+      dur="1.5s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <text
+    x="390"
+    y="260"
+    font-family="monospace"
+    font-size="14"
+    letter-spacing="3"
+    fill="#00ff9c">
+
+    SYSTEM ONLINE
+
+  </text>
+
+</svg>
