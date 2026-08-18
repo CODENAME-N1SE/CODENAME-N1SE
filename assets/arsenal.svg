@@ -1,18 +1,24 @@
-<svg width="900" height="150"
-     viewBox="0 0 900 150"
-     xmlns="http://www.w3.org/2000/svg">
+<svg
+  width="900"
+  height="95"
+  viewBox="0 0 900 95"
+  xmlns="http://www.w3.org/2000/svg">
 
   <defs>
 
-    <linearGradient id="arsenalGradient"
-                    x1="0%" y1="0%"
-                    x2="100%" y2="0%">
+    <!-- CYBERPUNK GRADIENT -->
+    <linearGradient
+      id="arsenalGradient"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="0%">
 
       <stop offset="0%" stop-color="#00ffff">
         <animate
           attributeName="stop-color"
-          values="#00ffff;#8a2be2;#ff00ff;#00ffff"
-          dur="5s"
+          values="#00ffff;#4da6ff;#8a2be2;#ff00ff;#00ffff"
+          dur="7s"
           repeatCount="indefinite"/>
       </stop>
 
@@ -20,7 +26,7 @@
         <animate
           attributeName="stop-color"
           values="#8a2be2;#ff00ff;#00ffff;#8a2be2"
-          dur="5s"
+          dur="7s"
           repeatCount="indefinite"/>
       </stop>
 
@@ -28,42 +34,97 @@
         <animate
           attributeName="stop-color"
           values="#ff00ff;#00ffff;#8a2be2;#ff00ff"
-          dur="5s"
+          dur="7s"
           repeatCount="indefinite"/>
       </stop>
 
     </linearGradient>
 
-    <filter id="arsenalGlow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+
+    <!-- SOFT GLOW -->
+    <filter
+      id="arsenalGlow"
+      x="-30%"
+      y="-100%"
+      width="160%"
+      height="300%">
+
+      <feGaussianBlur
+        stdDeviation="2.5"
+        result="blur"/>
+
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
+
     </filter>
 
   </defs>
 
-  <!-- left line -->
-  <line
-    x1="80" y1="75"
-    x2="260" y2="75"
-    stroke="url(#arsenalGradient)"
-    stroke-width="2"/>
 
-  <!-- right line -->
+  <!-- LEFT SIGNAL -->
+
   <line
-    x1="640" y1="75"
-    x2="820" y2="75"
-    stroke="url(#arsenalGradient)"
-    stroke-width="2"/>
+    x1="180"
+    y1="38"
+    x2="285"
+    y2="38"
+    stroke="#30363d"
+    stroke-width="1"/>
+
+  <rect
+    x="180"
+    y="37"
+    width="45"
+    height="2"
+    fill="url(#arsenalGradient)"
+    filter="url(#arsenalGlow)">
+
+    <animate
+      attributeName="x"
+      values="180;240;180"
+      dur="6s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- RIGHT SIGNAL -->
+
+  <line
+    x1="615"
+    y1="38"
+    x2="720"
+    y2="38"
+    stroke="#30363d"
+    stroke-width="1"/>
+
+  <rect
+    x="675"
+    y="37"
+    width="45"
+    height="2"
+    fill="url(#arsenalGradient)"
+    filter="url(#arsenalGlow)">
+
+    <animate
+      attributeName="x"
+      values="675;615;675"
+      dur="6s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- MAIN TITLE -->
 
   <text
     x="450"
-    y="65"
+    y="43"
     text-anchor="middle"
     font-family="monospace"
-    font-size="27"
+    font-size="26"
     font-weight="bold"
     letter-spacing="4"
     fill="url(#arsenalGradient)"
@@ -73,17 +134,37 @@
 
   </text>
 
+
+  <!-- SUBTITLE -->
+
   <text
     x="450"
-    y="100"
+    y="72"
     text-anchor="middle"
     font-family="monospace"
-    font-size="12"
-    letter-spacing="5"
+    font-size="9"
+    letter-spacing="6"
     fill="#8b949e">
 
     N1SE // SYSTEM MODULES
 
   </text>
+
+
+  <!-- SMALL STATUS DOT -->
+
+  <circle
+    cx="738"
+    cy="38"
+    r="3"
+    fill="#00ff9c">
+
+    <animate
+      attributeName="opacity"
+      values="1;0.25;1"
+      dur="1.6s"
+      repeatCount="indefinite"/>
+
+  </circle>
 
 </svg>
