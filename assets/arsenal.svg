@@ -1,0 +1,89 @@
+<svg width="900" height="150"
+     viewBox="0 0 900 150"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <linearGradient id="arsenalGradient"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
+
+      <stop offset="0%" stop-color="#00ffff">
+        <animate
+          attributeName="stop-color"
+          values="#00ffff;#8a2be2;#ff00ff;#00ffff"
+          dur="5s"
+          repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="50%" stop-color="#8a2be2">
+        <animate
+          attributeName="stop-color"
+          values="#8a2be2;#ff00ff;#00ffff;#8a2be2"
+          dur="5s"
+          repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="100%" stop-color="#ff00ff">
+        <animate
+          attributeName="stop-color"
+          values="#ff00ff;#00ffff;#8a2be2;#ff00ff"
+          dur="5s"
+          repeatCount="indefinite"/>
+      </stop>
+
+    </linearGradient>
+
+    <filter id="arsenalGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- left line -->
+  <line
+    x1="80" y1="75"
+    x2="260" y2="75"
+    stroke="url(#arsenalGradient)"
+    stroke-width="2"/>
+
+  <!-- right line -->
+  <line
+    x1="640" y1="75"
+    x2="820" y2="75"
+    stroke="url(#arsenalGradient)"
+    stroke-width="2"/>
+
+  <text
+    x="450"
+    y="65"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="27"
+    font-weight="bold"
+    letter-spacing="4"
+    fill="url(#arsenalGradient)"
+    filter="url(#arsenalGlow)">
+
+    TECH_ARSENAL.exe
+
+  </text>
+
+  <text
+    x="450"
+    y="100"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="12"
+    letter-spacing="5"
+    fill="#8b949e">
+
+    N1SE // SYSTEM MODULES
+
+  </text>
+
+</svg>
