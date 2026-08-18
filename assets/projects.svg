@@ -4,6 +4,7 @@
 
   <defs>
 
+    <!-- Animated Cyberpunk Gradient -->
     <linearGradient id="projectGradient"
                     x1="0%" y1="0%"
                     x2="100%" y2="0%">
@@ -35,13 +36,16 @@
     </linearGradient>
 
 
+    <!-- Neon Glow -->
     <filter id="projectGlow"
             x="-20%"
-            y="-50%"
+            y="-80%"
             width="140%"
-            height="200%">
+            height="260%">
 
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feGaussianBlur
+        stdDeviation="3"
+        result="blur"/>
 
       <feMerge>
         <feMergeNode in="blur"/>
@@ -53,9 +57,11 @@
   </defs>
 
 
+  <!-- Main Section Title -->
+
   <text
     x="450"
-    y="47"
+    y="38"
     text-anchor="middle"
     font-family="monospace"
     font-size="28"
@@ -69,9 +75,11 @@
   </text>
 
 
+  <!-- Section Subtitle -->
+
   <text
     x="450"
-    y="82"
+    y="70"
     text-anchor="middle"
     font-family="monospace"
     font-size="12"
