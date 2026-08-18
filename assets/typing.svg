@@ -1,12 +1,15 @@
 <svg
   width="900"
-  height="125"
-  viewBox="0 0 900 125"
+  height="115"
+  viewBox="0 0 900 115"
   xmlns="http://www.w3.org/2000/svg">
 
   <defs>
 
-    <!-- NEON GRADIENT -->
+    <!-- ============================================
+         CYBERPUNK ANIMATED GRADIENT
+         ============================================ -->
+
     <linearGradient
       id="cyberGradient"
       x1="0%"
@@ -41,16 +44,19 @@
     </linearGradient>
 
 
-    <!-- SOFT GLOW -->
+    <!-- ============================================
+         SOFT NEON GLOW
+         ============================================ -->
+
     <filter
       id="glow"
-      x="-20%"
+      x="-30%"
       y="-100%"
-      width="150%"
+      width="160%"
       height="300%">
 
       <feGaussianBlur
-        stdDeviation="1.6"
+        stdDeviation="1.7"
         result="blur"/>
 
       <feMerge>
@@ -63,13 +69,13 @@
   </defs>
 
 
-  <!-- =====================================================
+  <!-- ============================================
        TERMINAL COMMAND
-       ===================================================== -->
+       ============================================ -->
 
   <text
     x="55"
-    y="30"
+    y="28"
     font-family="monospace"
     font-size="17"
     font-weight="bold"
@@ -80,11 +86,13 @@
   </text>
 
 
-  <!-- PROMPT -->
+  <!-- ============================================
+       OUTPUT INDICATOR
+       ============================================ -->
 
   <text
     x="55"
-    y="72"
+    y="67"
     font-family="monospace"
     font-size="18"
     font-weight="bold"
@@ -95,16 +103,17 @@
   </text>
 
 
-  <!-- =====================================================
-       PHRASE 01
-       ===================================================== -->
+  <!-- ============================================
+       01 — NIRMAL SEMALTI
+       ============================================ -->
 
   <text
     x="82"
-    y="72"
+    y="67"
     font-family="monospace"
     font-size="18"
     font-weight="bold"
+    letter-spacing="1"
     fill="url(#cyberGradient)"
     filter="url(#glow)"
     opacity="0">
@@ -114,23 +123,24 @@
     <animate
       attributeName="opacity"
       values="0;1;1;0;0"
-      keyTimes="0;0.01;0.17;0.19;1"
+      keyTimes="0;0.01;0.18;0.20;1"
       dur="25s"
       repeatCount="indefinite"/>
 
   </text>
 
 
-  <!-- =====================================================
-       PHRASE 02
-       ===================================================== -->
+  <!-- ============================================
+       02 — PROGRAMMER / PROBLEM SOLVER
+       ============================================ -->
 
   <text
     x="82"
-    y="72"
+    y="67"
     font-family="monospace"
     font-size="18"
     font-weight="bold"
+    letter-spacing="1"
     fill="url(#cyberGradient)"
     filter="url(#glow)"
     opacity="0">
@@ -140,23 +150,24 @@
     <animate
       attributeName="opacity"
       values="0;0;1;1;0;0"
-      keyTimes="0;0.20;0.21;0.37;0.39;1"
+      keyTimes="0;0.20;0.21;0.38;0.40;1"
       dur="25s"
       repeatCount="indefinite"/>
 
   </text>
 
 
-  <!-- =====================================================
-       PHRASE 03
-       ===================================================== -->
+  <!-- ============================================
+       03 — BUILDING
+       ============================================ -->
 
   <text
     x="82"
-    y="72"
+    y="67"
     font-family="monospace"
     font-size="18"
     font-weight="bold"
+    letter-spacing="1"
     fill="url(#cyberGradient)"
     filter="url(#glow)"
     opacity="0">
@@ -166,23 +177,24 @@
     <animate
       attributeName="opacity"
       values="0;0;1;1;0;0"
-      keyTimes="0;0.40;0.41;0.57;0.59;1"
+      keyTimes="0;0.40;0.41;0.58;0.60;1"
       dur="25s"
       repeatCount="indefinite"/>
 
   </text>
 
 
-  <!-- =====================================================
-       PHRASE 04
-       ===================================================== -->
+  <!-- ============================================
+       04 — JOURNEY
+       ============================================ -->
 
   <text
     x="82"
-    y="72"
+    y="67"
     font-family="monospace"
     font-size="18"
     font-weight="bold"
+    letter-spacing="1"
     fill="url(#cyberGradient)"
     filter="url(#glow)"
     opacity="0">
@@ -192,23 +204,24 @@
     <animate
       attributeName="opacity"
       values="0;0;1;1;0;0"
-      keyTimes="0;0.60;0.61;0.77;0.79;1"
+      keyTimes="0;0.60;0.61;0.78;0.80;1"
       dur="25s"
       repeatCount="indefinite"/>
 
   </text>
 
 
-  <!-- =====================================================
-       PHRASE 05
-       ===================================================== -->
+  <!-- ============================================
+       05 — FINAL MESSAGE
+       ============================================ -->
 
   <text
     x="82"
-    y="72"
+    y="67"
     font-family="monospace"
     font-size="18"
     font-weight="bold"
+    letter-spacing="1"
     fill="url(#cyberGradient)"
     filter="url(#glow)"
     opacity="0">
@@ -225,42 +238,20 @@
   </text>
 
 
-  <!-- =====================================================
-       BLINKING CURSOR
-       ===================================================== -->
-
-  <rect
-    x="390"
-    y="55"
-    width="8"
-    height="21"
-    rx="1"
-    fill="#ff00ff"
-    filter="url(#glow)">
-
-    <animate
-      attributeName="opacity"
-      values="1;1;0;0;1"
-      dur="0.8s"
-      repeatCount="indefinite"/>
-
-  </rect>
-
-
-  <!-- =====================================================
+  <!-- ============================================
        SYSTEM STATUS
-       ===================================================== -->
+       ============================================ -->
 
   <circle
     cx="58"
-    cy="105"
+    cy="98"
     r="3"
     fill="#00ff9c">
 
     <animate
       attributeName="opacity"
-      values="1;0.25;1"
-      dur="1.5s"
+      values="1;0.3;1"
+      dur="1.6s"
       repeatCount="indefinite"/>
 
   </circle>
@@ -268,9 +259,9 @@
 
   <text
     x="72"
-    y="109"
+    y="102"
     font-family="monospace"
-    font-size="9"
+    font-size="8"
     letter-spacing="3"
     fill="#484f58">
 
