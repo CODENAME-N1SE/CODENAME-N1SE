@@ -128,7 +128,7 @@ SOURCE       :: GITHUB
 ### `[01]` ⚡ IT SERVICE MANAGEMENT SYSTEM
 
 ```text
-LANGUAGE     :: Multiple / Not detected
+LANGUAGE     :: Java
 STATUS       :: PUBLISHED
 LAST UPDATE  :: 24 AUG 2026
 
