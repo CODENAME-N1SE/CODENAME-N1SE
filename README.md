@@ -125,7 +125,22 @@ SOURCE       :: GITHUB
 
 <!-- LATEST_PROJECTS:START -->
 
-### `[01]` ⚡ BANK MANAGEMENT SYSTEM
+### `[01]` ⚡ IT SERVICE MANAGEMENT SYSTEM
+
+```text
+LANGUAGE     :: Multiple / Not detected
+STATUS       :: PUBLISHED
+LAST UPDATE  :: 24 AUG 2026
+
+DESCRIPTION ::
+No description provided yet.
+```
+
+[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-00ffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/IT-Service-Management-System)
+
+<br>
+
+### `[02]` ⚡ BANK MANAGEMENT SYSTEM
 
 ```text
 LANGUAGE     :: Python
@@ -136,11 +151,11 @@ DESCRIPTION ::
 Python-based banking management system using OOP and SQL for account and transaction management.
 ```
 
-[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-00ffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/Bank-Management-System)
+[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-8a2be2?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/Bank-Management-System)
 
 <br>
 
-### `[02]` ⚡ FILE HANDLING PROJECT USING PYTHON
+### `[03]` ⚡ FILE HANDLING PROJECT USING PYTHON
 
 ```text
 LANGUAGE     :: Python
@@ -151,11 +166,11 @@ DESCRIPTION ::
 No description provided yet.
 ```
 
-[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-8a2be2?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/File-Handling-Project-Using-Python)
+[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-ff00ff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/File-Handling-Project-Using-Python)
 
 <br>
 
-### `[03]` ⚡ HYBRID CPU SCHEDULER
+### `[04]` ⚡ HYBRID CPU SCHEDULER
 
 ```text
 LANGUAGE     :: C
@@ -166,22 +181,7 @@ DESCRIPTION ::
 Hybrid CPU Scheduling Algorithm in C featuring Real-Time, Interactive, and Batch process handling with preemption, aging, waiting time, and turnaround time calculation.
 ```
 
-[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-ff00ff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/Hybrid-CPU-Scheduler)
-
-<br>
-
-### `[04]` ⚡ MOVIE MANAGEMENT SYSTEM
-
-```text
-LANGUAGE     :: C
-STATUS       :: PUBLISHED
-LAST UPDATE  :: 28 MAY 2026
-
-DESCRIPTION ::
-A simple Movie Ticket Booking System developed in C using Data Structures concepts. The project uses a 2D array to manage seat allocation, booking, cancellation, and availability checking. File handling is implemented to store booking data permanently.
-```
-
-[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-00ffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/Movie-Management-System)
+[![Repository](https://img.shields.io/badge/ACCESS_REPOSITORY-00ffff?style=for-the-badge&logo=github&logoColor=black)](https://github.com/CODENAME-N1SE/Hybrid-CPU-Scheduler)
 
 <br>
 
